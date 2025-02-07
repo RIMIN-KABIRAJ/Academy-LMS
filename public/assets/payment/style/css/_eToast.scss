@@ -1,0 +1,111 @@
+.eSection-wrap {
+  .toast:not(.show) {
+    display: block !important;
+  }
+  .fade:not(.show) {
+    opacity: 1 !important;
+  }
+}
+.eToastBasic {
+  width: 287px;
+  max-width: 100%;
+  pointer-events: auto;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid $eColor_Whiteish;
+  box-shadow: 0 7px 15px rgba($eColor_Blackish, 0.14);
+  border-radius: 5px;
+  .toast-header {
+    padding: 6px 12px;
+    color: #181c32;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-bottom: 1px solid $eColor_Whiteish;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    strong {
+      font-size: 16px;
+      font-weight: $fw_SemiBold;
+      color: $eColor_Blueish;
+    }
+    small {
+      font-size: 10px;
+      font-weight: $fw_Regular;
+      color: $eColor_Blackish;
+    }
+    .btn-close {
+      width: 11px;
+      height: 11px;
+      margin-right: 0;
+      margin-left: 13px;
+      padding: 0 !important;
+      background: transparent url("../images/toast-close-1.svg") center/1em auto
+        no-repeat;
+      box-shadow: 0 0 0 #00000000 !important;
+      opacity: 1 !important;
+    }
+  }
+  .toast-body {
+    font-size: 10px;
+    font-weight: $fw_Regular;
+    color: $eColor_Blueish;
+    line-height: 24px;
+    padding: 13.5px 11px 12px;
+  }
+}
+.eToastCustom {
+  width: 287px;
+  max-width: 100%;
+  pointer-events: auto;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid $eColor_Whiteish;
+  box-shadow: 0 7px 15px rgba($eColor_Blackish, 0.14);
+  border-radius: 5px;
+  .toast-body {
+    padding: 9px 0 12px;
+    p {
+      font-size: 13px;
+      font-weight: $fw_Medium;
+      color: $eColor_Blueish;
+      line-height: 24px;
+      padding-left: 12px;
+      padding-bottom: 8px;
+    }
+    .toastAction {
+      display: flex;
+      justify-content: flex-start;
+      gap: 10px;
+      border-top: 1px solid $eColor_Whiteish;
+      padding: 11px 12px 0;
+    }
+  }
+}
+.eToastColor {
+  position: relative;
+  width: 303px;
+  max-width: 100%;
+  pointer-events: auto;
+  background-clip: padding-box;
+  box-shadow: 0 7px 15px rgba($eColor_Blackish, 0.14);
+  border-radius: 5px;
+  .toast-body {
+    font-size: 13px;
+    font-weight: $fw_Medium;
+    padding: 12px 19px 13px;
+  }
+  .btn-close {
+    position: absolute;
+    top: 50%;
+    right: 19px;
+    transform: translateY(-50%);
+    background: transparent url("../images/toast-close-2.svg") center/1em auto
+      no-repeat;
+    width: 11px;
+    height: 11px;
+    padding: 0 !important;
+    padding-right: 20px;
+    opacity: 1 !important;
+    box-shadow: 0 0 0 #00000000 !important;
+  }
+}

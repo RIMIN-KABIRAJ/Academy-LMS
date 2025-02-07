@@ -1,0 +1,210 @@
+.att-filter {
+  gap: 18px;
+  padding-bottom: 30px;
+  .att-filter-option {
+    flex: 0 0 auto;
+    min-width: 350px;
+    @media screen and (max-width: 991px) {
+      min-width: 335px !important;
+    }
+    @media screen and (max-width: 767px) {
+      min-width: 300px !important;
+    }
+    .select2 {
+      width: 100%;
+    }
+  }
+  .att-filter-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 125px;
+    height: 40px;
+    background-color: $eColor_Blackish;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: $fw_Medium;
+    color: #fff;
+  }
+}
+
+.select2-container--default .select2-results > .select2-results__options {
+  max-height: initial !important;
+}
+
+// Attendance report banner
+.att-report-banner {
+  background-color: #eff0f5;
+  padding: 25px 40px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  position: relative;
+  gap: 20px;
+  @media screen and (max-width: 767px) {
+    padding: 25px;
+  }
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 6px;
+    height: 100%;
+    border-radius: 10px;
+    background-color: $eColor_Blue;
+  }
+  .att-report-summary {
+    .title {
+      font-size: 24px;
+      font-weight: $fw_SemiBold;
+      line-height: 35px;
+      color: $eColor_Blueish;
+      padding-bottom: 5px;
+      @media screen and (max-width: 991px) {
+        font-size: 20px;
+      }
+    }
+    .summary-item {
+      font-size: 15px;
+      font-weight: $fw_SemiBold;
+      line-height: 23px;
+      color: $eColor_Blueish;
+      padding-bottom: 5px;
+      span {
+        font-weight: $fw_Medium;
+        color: $eColor_Blackish;
+      }
+      &:last-child {
+        padding-bottom: 0;
+      }
+    }
+  }
+  .att-banner-img {
+    max-width: 170px;
+  }
+}
+
+// Attendance Table
+.att-table {
+  overflow: hidden;
+  display: flex;
+}
+.att-title {
+  // flex: 0 0 160px;
+  min-width: 160px;
+  max-width: 160px;
+  width: 100%;
+  &-header {
+    font-size: 14px;
+    font-weight: $fw_Medium;
+    line-height: 21px;
+    color: $eColor_Blackish;
+    border-bottom: 1px solid $eColor_Seperate;
+    min-height: 77px;
+  }
+}
+.att-stuName-items {
+  .att-stuName-item {
+    border-bottom: 1px dashed $eColor_Seperate;
+    a {
+      min-height: 77px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      font-size: 15px;
+      font-weight: $fw_Medium;
+      line-height: 15px;
+      color: $eColor_Blueish;
+    }
+    &:last-child {
+      border-bottom: none;
+      a {
+        min-height: 39px;
+        align-items: flex-end;
+      }
+    }
+  }
+}
+.att-content {
+  // flex: 0 0 auto;
+  max-width: 1440px;
+  overflow-x: scroll;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+.att-dayWeek {
+  min-width: 1440px;
+  min-height: 77px;
+  border-bottom: 1px solid $eColor_Seperate;
+}
+.att-wDay,
+.att-date {
+  gap: 30px;
+  div {
+    p {
+      width: 16px;
+      text-align: center;
+      font-size: 15px;
+      line-height: 26px;
+      font-weight: $fw_Medium;
+      color: $eColor_Blackish;
+    }
+  }
+}
+.att-wDay {
+  padding-bottom: 7px;
+  div {
+    p {
+      color: $eColor_Blueish;
+    }
+  }
+}
+
+.att-count-items {
+  min-width: 1440px;
+}
+.att-count-item {
+  border-bottom: 1px dashed $eColor_Seperate;
+
+  &:last-child {
+    border-bottom: none;
+    .att-count-stu {
+      min-height: 39px;
+      align-items: flex-end;
+    }
+  }
+}
+
+.att-count-stu {
+  min-height: 77px;
+  align-items: center;
+  gap: 30px;
+  div {
+    width: 16px;
+    height: 16px;
+    border-radius: 4px;
+    background-color: rgba($eColor_Blueish, 0.3);
+    position: relative;
+    &::before {
+      position: absolute;
+      top: -40%;
+      left: 50%;
+      transform: translate(-50%, 0%);
+      width: 7px;
+      height: 7px;
+    }
+    &.present {
+      background-color: rgba($present, 0.3);
+      &::before {
+        content: url(../images/att-check.svg);
+      }
+    }
+    &.absent {
+      background-color: rgba($absent, 0.3);
+      &::before {
+        content: url(../images/att-times.svg);
+      }
+    }
+  }
+}

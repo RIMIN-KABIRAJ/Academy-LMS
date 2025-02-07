@@ -1,0 +1,15 @@
+
+@font-face {
+    font-family: 'clinton-semi-bold';
+    src: url('Clinton-semibold.ttf');
+}
+
+@font-face {
+    font-family: 'clinton-bold';
+    src: url('ClintonBold.ttf');
+}
+
+@font-face {
+    font-family: 'clinton-ex-bold';
+    src: url('ClintonExtraBold.ttf');
+}

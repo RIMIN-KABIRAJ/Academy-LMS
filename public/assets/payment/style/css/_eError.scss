@@ -1,0 +1,18 @@
+.error_wrap {
+  height: 50vh;
+}
+.error_content {
+  padding-top: 12px;
+  .title {
+    font-size: 22px;
+    font-weight: $fw_Medium;
+    line-height: 33px;
+    color: $eColor_Blueish;
+    padding-bottom: 5px;
+  }
+  .info {
+    font-size: 16px;
+    line-height: 26px;
+    color: $eColor_Blackish;
+  }
+}

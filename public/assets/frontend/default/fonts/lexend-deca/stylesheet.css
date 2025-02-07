@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Lexend Deca';
+    src: url('LexendDeca-SemiBold.woff2') format('woff2'),
+        url('LexendDeca-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lexend Deca';
+    src: url('LexendDeca-Bold.woff2') format('woff2'),
+        url('LexendDeca-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lexend Deca';
+    src: url('LexendDeca-Regular.woff2') format('woff2'),
+        url('LexendDeca-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lexend Deca';
+    src: url('LexendDeca-Medium.woff2') format('woff2'),
+        url('LexendDeca-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lexend Deca';
+    src: url('LexendDeca-Light.woff2') format('woff2'),
+        url('LexendDeca-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lexend Deca';
+    src: url('LexendDeca-ExtraBold.woff2') format('woff2'),
+        url('LexendDeca-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

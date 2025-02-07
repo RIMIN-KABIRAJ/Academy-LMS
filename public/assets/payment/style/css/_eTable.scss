@@ -1,0 +1,121 @@
+.eTable {
+  font-size: 14px !important;
+  font-weight: $fw_SemiBold !important;
+  color: $eColor_Blueish !important;
+  > :not(caption) > * > * {
+    padding: 11px 16px !important;
+    border-bottom-color: $table-light-bg !important;
+    &:first-child {
+      padding-left: 30px !important;
+    }
+  }
+  > :not(:first-child) {
+    border-top: 1px solid $table-light-bg;
+  }
+  &.table-borderless {
+    > :not(:first-child) {
+      border-top: none;
+    }
+  }
+  .table-light {
+    --bs-table-bg: $table-light-bg;
+  }
+  tbody {
+    tr {
+      font-size: 12px !important;
+      font-weight: $fw_Regular !important;
+      th {
+        font-size: 12px !important;
+        font-weight: $fw_Regular !important;
+      }
+    }
+  }
+  &.table-hover > tbody > tr:hover > * {
+    background-color: $table-light-bg;
+    color: $eColor_Blueish;
+  }
+  &.table-dark {
+    --bs-table-bg: #181c32;
+    --bs-table-hover-bg: #181c3215;
+    --bs-table-hover-color: #181c32;
+    color: #fff !important;
+    border-color: #4c5067 !important;
+    > :not(caption) > * > * {
+      border-bottom-color: #4c5067 !important;
+    }
+    &.table-hover > tbody > tr:hover > * {
+      background-color: #181c3290;
+      color: #fff;
+    }
+    &.table-striped > tbody > tr:nth-of-type(odd) > * {
+      --bs-table-accent-bg: #181c3290 !important;
+      color: #fff;
+    }
+  }
+  &.table-striped > tbody > tr:nth-of-type(odd) > * {
+    background-color: $table-light-bg;
+    color: $eColor_Blueish;
+  }
+}
+
+// For Admin table
+.eTable-2 > :not(caption) > * > *:last-child {
+  width: 107px;
+}
+
+// Table btn
+.table-action-btn {
+  display: inline-block;
+  padding: 6px 10px;
+  line-height: 1;
+  border-radius: 5px;
+  background-color: $eColor_Whiteish;
+  font-size: 12px;
+  font-weight: $fw_Regular;
+  color: $eColor_Blueish;
+  &:hover {
+    color: $eColor_Blueish;
+  }
+}
+.table-action-btn-2 {
+  display: inline-block;
+  height: 35px;
+  padding: 8px 18px;
+  line-height: 1;
+  border: none;
+  border-radius: 5px;
+  background-color: #edf2f6;
+  font-size: 14px;
+  font-weight: $fw_Medium;
+  color: $eColor_Blackish;
+  ~ .eDropdown-menu-2 {
+    li {
+      a {
+        font-size: 14px !important;
+        font-weight: $fw_Medium;
+        line-height: 30px;
+      }
+    }
+  }
+}
+
+// Invoice Table
+.eTable-2.tbody-border {
+  thead {
+    tr {
+      th {
+        font-size: 16px;
+        font-weight: $fw_SemiBold;
+        color: $eColor_Blueish;
+      }
+    }
+  }
+  tbody {
+    tr {
+      border-bottom: 1.1px solid $eColor_Seperate !important;
+      &:first-child {
+        border-bottom: 1.1px solid transparent !important;
+      }
+    }
+  }
+}

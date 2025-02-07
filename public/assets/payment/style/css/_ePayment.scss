@@ -1,0 +1,117 @@
+// Payment
+.paymentContent {
+  max-width: 1172px;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 0;
+  background-color: #fff;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.0039215686);
+  border-radius: 5px;
+}
+.paymentHeader {
+  padding: 28px 75px 26px 64px;
+  border-bottom: 1px solid $eColor_Seperate;
+  .title {
+    font-size: 24px;
+    font-weight: $fw_SemiBold;
+    line-height: 35px;
+    color: $eColor_Blueish;
+  }
+  .btn-close {
+    width: 14px;
+    height: 14px;
+    border: 1px solid #e3e4ea;
+    border-radius: 4px;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.paymentLeft {
+  flex: 0 0 auto;
+  max-width: 402px;
+  width: 100%;
+}
+.paymentRight {
+  flex: 0 0 auto;
+  max-width: 573px;
+  width: 100%;
+}
+.paymentWrap {
+  gap: 57px;
+  padding: 33px 75px 40px 64px;
+}
+.payment_tab_title {
+  font-size: 18px;
+  font-weight: $fw_Medium;
+  line-height: 27px;
+  color: $eColor_Blueish;
+}
+.payment_body_content {
+  .row {
+    gap: 57px;
+  }
+}
+.payment_modalTab {
+  gap: 30px;
+  .tabItem {
+    padding: 20px;
+    border: 1px dashed #cfd1dc;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    @media screen and (max-width: 576px) {
+      padding: 20px 10px;
+    }
+    &.active {
+      background-color: #f1faff;
+      .payment_gateway_option {
+        .logo {
+          background-color: #d0eaf8;
+        }
+      }
+    }
+  }
+}
+.payment_gateway_option {
+  gap: 20px;
+  .logo {
+    width: 177px;
+    height: 65px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #efeff3;
+  }
+  .info {
+    .card_no {
+      font-size: 16px;
+      font-weight: $fw_Medium;
+      line-height: 25px;
+      color: $eColor_Blueish;
+      padding-bottom: 5px;
+      @media screen and (max-width: 576px) {
+        font-size: 14px;
+      }
+    }
+    .card_date {
+      font-size: 15px;
+      font-weight: $fw_Regular;
+      line-height: 25px;
+      color: $eColor_Blackish;
+      @media screen and (max-width: 576px) {
+        font-size: 14px;
+      }
+    }
+  }
+}
+.payment_table {
+  border-top: 1px solid $eColor_Seperate;
+  border-bottom: 1px solid $eColor_Seperate;
+  margin-bottom: 30px;
+  .table {
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,155 @@
+.eButton_toolbar_wrap {
+  display: inline-block;
+  border: 1px solid #000;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.eButton_toolbar {
+  display: flex;
+  li {
+    border-right: 1px solid #000;
+    &:last-child {
+      border-right: 0;
+    }
+    &:hover,
+    &.active {
+      background-color: #00000050;
+      a {
+        color: #000;
+      }
+    }
+    a {
+      display: inline-block;
+      padding: 10px;
+    }
+  }
+  &.eButton_toolbar_color {
+    background-color: blue;
+    li {
+      a {
+        color: #fff;
+      }
+    }
+  }
+}
+.export_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 127px;
+  height: 42px;
+  padding: 12px 18px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color: $eColor_Blue;
+  font-size: 13px;
+  font-weight: $fw_Medium;
+  color: #fff;
+  transition: all 0.3s;
+  &:hover {
+    background-color: transparent;
+    border-color: $eColor_Blue;
+    color: $eColor_Blue;
+  }
+}
+.print_invoice_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  max-width: 154px;
+  height: 55px;
+  margin-left: auto;
+  padding: 12px 18px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color: $eColor_Blue;
+  font-size: 13px;
+  font-weight: $fw_Medium;
+  color: #fff;
+  transition: all 0.3s;
+  svg {
+    path {
+      transition: all 0.3s;
+    }
+  }
+  &:hover {
+    background-color: transparent;
+    border-color: $eColor_Blue;
+    color: $eColor_Blue;
+    svg {
+      path {
+        fill: $eColor_Blue;
+      }
+    }
+  }
+}
+.paypal_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  max-width: 175px;
+  height: 55px;
+  margin-top: 50px;
+  margin-left: auto;
+  padding: 12px 18px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color: $eColor_Blue;
+  font-size: 13px;
+  font-weight: $fw_Medium;
+  color: #fff;
+  transition: all 0.3s;
+  &:hover {
+    background-color: transparent;
+    border-color: $eColor_Blue;
+    color: $eColor_Blue;
+  }
+}
+.off_payment_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  max-width: 283px;
+  height: 55px;
+  margin-top: 60px;
+  margin-left: auto;
+  padding: 12px 18px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color: $eColor_Blue;
+  font-size: 13px;
+  font-weight: $fw_Medium;
+  color: #fff;
+  transition: all 0.3s;
+  &:hover {
+    background-color: transparent;
+    border-color: $eColor_Blue;
+    color: $eColor_Blue;
+  }
+}
+.eBtn-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 127px;
+  height: 42px;
+  padding: 12px 18px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color: #edf2f6;
+  font-size: 13px;
+  font-weight: $fw_Medium;
+  color: $eColor_Blue;
+  transition: all 0.3s;
+  &:hover {
+    background-color: transparent;
+    border-color: $eColor_Blue;
+    color: $eColor_Blue;
+  }
+  &::after {
+    display: none;
+  }
+}

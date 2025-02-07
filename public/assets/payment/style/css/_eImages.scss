@@ -1,0 +1,69 @@
+.eImage-wrap {
+  gap: 20px;
+  padding-bottom: 40px;
+}
+.ew-20 {
+  width: 134px;
+  height: 115px;
+  border-radius: 5px;
+}
+.ew-40 {
+  width: 194px;
+  height: 141px;
+  border-radius: 5px;
+}
+.ew-60 {
+  width: 206px;
+  height: 168px;
+  border-radius: 5px;
+}
+.ew-80 {
+  width: 222px;
+  height: 201px;
+  border-radius: 5px;
+}
+.ew-100 {
+  width: 294px;
+  height: 269px;
+  border-radius: 5px;
+}
+
+// Avatar
+.eImage-avator {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.eAvatar {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  .eAvatar-img {
+    background-size: cover;
+  }
+  &:not(img) {
+    background-color: $eColor_Whiteish;
+  }
+}
+.eAvatar-xl {
+  width: 130px;
+  height: 130px;
+}
+.eAvatar-lg {
+  width: 100px;
+  height: 100px;
+}
+.eAvatar-sm {
+  width: 50px;
+  height: 50px;
+}
+.eAvatar-circle {
+  border-radius: 50%;
+}

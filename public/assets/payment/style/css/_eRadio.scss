@@ -1,0 +1,152 @@
+.eRadios {
+  .form-check {
+    &.eForm-radio {
+      padding-left: 0;
+      .row {
+        gap: 8px;
+      }
+    }
+  }
+  input.form-check-input {
+    width: 14px;
+    height: 14px;
+    vertical-align: middle;
+    margin-top: 0.45em;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid $eColor_Blackish_bg;
+    &:checked {
+      background-color: $eColor_Blue;
+      border-color: $eColor_Blue;
+    }
+    &.eRadioPrimary {
+      &:checked {
+        background-color: $eColor_Blue;
+        border-color: $eColor_Blue;
+      }
+    }
+    &.eRadioSuccess {
+      &:checked {
+        background-color: $success;
+        border-color: $success;
+      }
+    }
+    &.eRadioInfo {
+      &:checked {
+        background-color: $info;
+        border-color: $info;
+      }
+    }
+    &.eRadioWarning {
+      &:checked {
+        background-color: $warning;
+        border-color: $warning;
+      }
+    }
+    &.eRadioDanger {
+      &:checked {
+        background-color: $dnager;
+        border-color: $dnager;
+      }
+    }
+    &.eRadioOutlinePrimary {
+      &:checked {
+        background-color: transparent;
+        border-color: $eColor_Blue;
+        background-image: none;
+        position: relative;
+        &::before {
+          content: "";
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          width: 6px;
+          height: 6px;
+          background-color: $eColor_Blue;
+          border-radius: 50%;
+        }
+      }
+    }
+    &.eRadioOutlineSuccess {
+      &:checked {
+        background-color: transparent;
+        border-color: $success;
+        background-image: none;
+        position: relative;
+        &::before {
+          content: "";
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          width: 6px;
+          height: 6px;
+          background-color: $success;
+          border-radius: 50%;
+        }
+      }
+    }
+    &.eRadioOutlineInfo {
+      &:checked {
+        background-color: transparent;
+        border-color: $info;
+        background-image: none;
+        position: relative;
+        &::before {
+          content: "";
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          width: 6px;
+          height: 6px;
+          background-color: $info;
+          border-radius: 50%;
+        }
+      }
+    }
+    &.eRadioOutlineWarning {
+      &:checked {
+        background-color: transparent;
+        border-color: $warning;
+        background-image: none;
+        position: relative;
+        &::before {
+          content: "";
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          width: 6px;
+          height: 6px;
+          background-color: $warning;
+          border-radius: 50%;
+        }
+      }
+    }
+    &.eRadioOutlineDanger {
+      &:checked {
+        background-color: transparent;
+        border-color: $dnager;
+        background-image: none;
+        position: relative;
+        &::before {
+          content: "";
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          width: 6px;
+          height: 6px;
+          background-color: $dnager;
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+  label {
+    font-size: 12px;
+    font-weight: $fw_Medium;
+    color: $eColor_Blueish;
+  }
+}

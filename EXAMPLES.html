@@ -1,0 +1,68 @@
+<!-- Title -->
+<div class="mainSection-title ps-2px d-flex justify-content-between">
+  <h4>{{get_phrase('Dashboard')}}</h4>
+  <a class="btn btn-primary" href="#"> <i class="fi-sr-plus text-10px"></i> {{get_phrase('Create a new category')}}</a>
+</div>
+
+<!-- Form -->
+<form action="{{route('admin.category.store')}}" method="post" enctype="multipart/form-data">
+  @CSRF
+  <input type="hidden" name="parent_id" value="{{$parent_id}}">
+
+  @if ($errors->any())
+    <div class="alert alert-danger">
+      <ul>
+        @foreach ($errors->all() as $error)
+          <li>{{ $error }}</li>
+        @endforeach
+      </ul>
+    </div>
+  @endif
+
+  <div class="row">
+    <div class="col-12">
+      <div class="mb-3">
+        <label for="category_name" class="eForm-label">{{get_phrase('Category Name')}}</label>
+        <input type="text" name="title" class="form-control eForm-control" id="category_name" placeholder="{{get_phrase('Enter your category name')}}" aria-label="{{get_phrase('Enter your category name')}}"/>
+      </div>
+
+      <div class="mb-3">
+        <label for="icon-picker" class="eForm-label">{{get_phrase('Pick Your Icon')}}</label>
+        <input type="text" name="icon" class="form-control eForm-control icon-picker" id="icon-picker" placeholder="{{get_phrase('Pick your category icon')}}" aria-label="{{get_phrase('Pick your category icon')}}"/>
+      </div>
+
+      <div class="mb-3">
+        <label for="thumbnail" class="eForm-label">{{get_phrase('Choose category thumbnail')}}</label>
+        <input type="file" name="thumbnail" class="form-control eForm-control-file" id="thumbnail" accept="image/*" />
+      </div>
+
+      <div class="mb-2">
+        <button class="btn btn-primary">{{get_phrase('Submit')}}</button>
+      </div>
+    </div>
+  </div>
+</form>
+
+<form>
+	<div class="row">
+    <div class="col-12">
+      <div class="eSection-wrap">
+        <div class="title">
+          <h3>Textual Inputs</h3>
+        </div>
+        <div class="eMain">
+          <div class="row">
+            <div class="col-md-12 pb-3">
+              <div class="eForm-layouts">
+                  <div class="fpb-7">
+                    <label for="category_name" class="eForm-label">{{get_phrase('Category Name')}}</label>
+                    <input type="email" class="form-control eForm-control" id="category_name" placeholder="{{get_phrase('Enter your category name')}}" aria-label="{{get_phrase('Enter your category name')}}"/>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>

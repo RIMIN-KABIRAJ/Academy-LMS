@@ -1,0 +1,1364 @@
+@media all and (max-width: 1399px) {
+
+    /* Development Css Start */
+    .programming-ebook-banner {
+        max-width: 485px;
+    }
+
+    /* Development Css End */
+}
+
+@media all and (max-width: 1199px) {
+    .fs-48px {
+        font-size: 45px !important;
+    }
+
+    .fs-82px {
+        font-size: 72px !important;
+    }
+
+    .lh-107px {
+        line-height: 92px !important;
+    }
+
+
+    /* Header Css Start */
+    .nav-area ul {
+        column-gap: 30px;
+    }
+
+    .nav-wrap {
+        column-gap: 30px;
+    }
+
+    .language-dropdown .nice-select {
+        padding-right: 20px;
+    }
+
+    .language-dropdown .nice-select .list {
+        transform: translateX(-14%);
+    }
+
+    .nav-search .search-field:focus {
+        width: 180px;
+    }
+
+    .nav-btn-area .nav-search {
+        margin-right: 0px;
+    }
+
+    .nav-btn-area .language-dropdown::after {
+        display: none;
+    }
+
+    /* Header Css End */
+    /* Footer Css Start */
+    .footer-logo-area {
+        max-width: 280px;
+    }
+
+    .footer-contact-subscribe {
+        max-width: 330px;
+    }
+
+    /* Footer Css End */
+    .why-choose1-single .total {
+        font-size: 65px;
+        line-height: 70px;
+    }
+
+    /* Homepage 1 Css End */
+
+    /* Meditation Css Start */
+    .maditation-banner-image {
+        max-width: 470px;
+    }
+
+    .maditation-banner-left .info {
+        max-width: 300px;
+    }
+
+    .maditation-banner-typography {
+        max-width: 850px;
+    }
+
+    .yoga-benefit-banner {
+        max-width: 240px;
+    }
+
+    .yoga-benefit-area>.title {
+        margin-bottom: 16px;
+    }
+
+    /* Meditation Css End */
+
+    /* Cooking Css Start */
+    .cooking-banner-details .title {
+        font-size: 48px;
+        line-height: 65px;
+    }
+
+    .cooking-banner-details .title .highlight {
+        font-size: 54px;
+        line-height: 74px;
+    }
+
+    .cooking-banner-details .title .small {
+        font-size: 37px;
+        line-height: 51px;
+    }
+
+    .cooking-counter-single .total {
+        font-size: 70px;
+        line-height: 90px;
+    }
+
+    /* Cooking Css End */
+    /* Development Css Start */
+    .development-banner-area>.title {
+        font-size: 47px;
+        line-height: 62px;
+    }
+
+    .development-banner-area .video-play-btn {
+        margin-top: 135px;
+        margin-left: 0;
+    }
+
+    /* Development Css End */
+    /* Kindertarten Css Start */
+    .lg-testimonial-titles.mb-50px {
+        margin-bottom: 0 !important;
+    }
+
+    /* Kindertarten Css End */
+}
+
+
+@media all and (max-width: 991px) {
+    .fs-32px {
+        font-size: 30px !important;
+    }
+
+    .fs-34px {
+        font-size: 32px !important;
+    }
+
+    .fs-40px {
+        font-size: 38px !important;
+    }
+
+    .fs-48px {
+        font-size: 42px !important;
+    }
+
+    .fs-56px {
+        font-size: 46px !important;
+    }
+
+    .fs-82px {
+        font-size: 64px !important;
+    }
+
+
+    .lh-42px {
+        line-height: 39px !important;
+    }
+
+    .lh-44px {
+        line-height: 42px !important;
+    }
+
+    .lh-52px {
+        line-height: 48px !important;
+    }
+
+    .lh-107px {
+        line-height: 80px !important;
+    }
+
+
+    /* Header Css Start */
+    .nav-btn-area {
+        display: none !important;
+    }
+
+    .nav-area ul {
+        flex-direction: column;
+        align-items: baseline !important;
+    }
+
+    .nav-area ul li .menu-dropdown {
+        position: inherit;
+        transform: translateX(0);
+        visibility: visible;
+        opacity: 1;
+        border-radius: 0;
+        padding: 0;
+        box-shadow: none;
+    }
+
+    .nav-area nav>ul>li {
+        position: inherit;
+    }
+
+    .nav-area ul li a {
+        display: flex;
+        align-items: center;
+        column-gap: 6px;
+        position: inherit;
+        padding: 12px;
+        border-radius: 8px;
+        margin-bottom: 8px;
+        line-height: 24px;
+        letter-spacing: -0.15px;
+        width: 291px;
+    }
+
+    .nav-area ul li a svg {
+        display: block;
+    }
+
+    .nav-area ul li a.active svg path,
+    .nav-area ul li a:hover svg path {
+        fill: var(--skinColor1);
+    }
+
+    .menu-item-has-children.active-submenu a path {
+        fill: var(--skinColor1);
+    }
+
+    .menu-item-has-children.active-submenu>a {
+        color: var(--skinColor1);
+        background: rgba(19, 190, 149, 0.08);
+    }
+
+    .nav-area ul li a.active,
+    .nav-area ul li a:hover {
+        background: rgba(19, 190, 149, 0.08);
+        color: var(--skinColor1);
+    }
+
+    .nav-area ul li.menu-item-has-children>a {
+        position: relative;
+    }
+
+    .subscribe-area-banner1>img {
+        height: 300px;
+        border-radius: 16px 16px 0 0;
+    }
+
+    .nav-area ul li.menu-item-has-children .menu-dropdown {
+        display: none;
+        transition: 0s;
+    }
+
+    .edu-offcanvas .btn-close {
+        width: 15px;
+        height: 15px;
+        background-size: 15px;
+    }
+
+    .edu-offcanvas .btn-close:focus {
+        box-shadow: none;
+    }
+
+    .edu-offcanvas .offcanvas-header {
+        padding: 37px 24px 32px 24px;
+    }
+
+    .edu-offcanvas .offcanvas-body {
+        padding: 0px 24px 24px 24px;
+    }
+
+    .edu-offcanvas.offcanvas-lg.offcanvas-end {
+        width: 339px;
+    }
+
+    .nav-area ul li .menu-dropdown::after {
+        display: none;
+    }
+
+    .nav-area nav>ul>li>a::after {
+        display: none;
+    }
+
+    .nav-area ul li .menu-dropdown a {
+        padding: 6px 12px 6px 42px;
+    }
+
+    /* Header Css End */
+    /* Footer Css Start */
+    .footer-main-wrap {
+        flex-wrap: wrap;
+    }
+
+    .footer-logo-area {
+        max-width: 100%;
+    }
+
+    /* Footer Css End */
+    /* Homepage 1 Css Start */
+    .home1-banner-content .title {
+        font-size: 40px;
+        line-height: 55px;
+    }
+
+    .home1-banner-section::before {
+        top: 32px;
+    }
+
+    .why-choose-wrap1 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .why-choose1-single:nth-of-type(3):after {
+        display: none;
+    }
+
+    .why-choose1-single .total {
+        font-size: 60px;
+        line-height: 65px;
+    }
+
+    .why-choose-section1::after {
+        width: 420px;
+    }
+
+    .why-choose-section1::before {
+        width: 420px;
+    }
+
+    /* Homepage 1 Css End */
+
+    /* Meditation Css Start */
+    .maditation-banner-content {
+        flex-wrap: wrap;
+        row-gap: 30px;
+    }
+
+    .maditation-banner-image {
+        order: -1;
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    .maditation-banner-image img {
+        max-width: 70%;
+        margin: 0 auto;
+    }
+
+    .maditation-banner-left {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .maditation-beginner-lesson {
+        margin-bottom: 0px;
+    }
+
+    .maditation-banner-typography img {
+        max-width: 95%;
+        margin: 0 auto;
+    }
+
+    .yoga-benefits-wrap {
+        flex-wrap: wrap;
+    }
+
+    .yoga-benefit-banner {
+        order: -1;
+        max-width: 100%;
+    }
+
+    .yoga-benefit-banner img {
+        max-width: 280px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .yoga-benefit-list {
+        width: calc(50% - 21px);
+    }
+
+    /* Meditation Css End */
+
+    /* Cooking Css start */
+    .cooking-banner-image {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .cooking-banner-details {
+        margin-top: 0px;
+    }
+
+    .cooking-services-area {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .cooking-single-service:nth-of-type(2)::after {
+        display: none;
+    }
+
+    .cooking-single-service:nth-of-type(3) {
+        grid-column: span 2;
+    }
+
+    .cooking-course-list-card {
+        flex-direction: column;
+    }
+
+    .cooking-course-list-banner-title .title-wrap {
+        max-width: 100%;
+    }
+
+    .cooking-counter-area {
+        flex-wrap: wrap;
+    }
+
+    .cooking-counter-single {
+        max-width: calc(50% - 10px);
+    }
+
+    .cooking-counter-single:nth-of-type(2)::after {
+        display: none;
+    }
+
+    .desirable-kitchen-area {
+        flex-direction: column;
+    }
+
+    .desirable-kitchen-banner {
+        order: -1;
+        max-width: 500px;
+    }
+
+    .desirable-kitchen-details>.title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .desirable-kitchen-details {
+        max-width: 100%;
+    }
+
+    .become-instructor-area {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .become-instructor-details {
+        max-width: 100%;
+    }
+
+    .become-instructor-video-area {
+        max-width: 550px;
+    }
+
+    .frequently-qna-title-area>.title {
+        font-size: 38px;
+        line-height: 52px;
+    }
+
+    /* Cooking Css End */
+    /* Development Css Start */
+    .hero-rated-profile-area {
+        max-width: 100%;
+    }
+
+    .hero-rated-profile-area::after {
+        display: none;
+    }
+
+    .development-hero-area1 .hero-info {
+        max-width: 100%;
+    }
+
+    .development-banner-area>.title {
+        font-size: 40px;
+        line-height: 55px;
+    }
+
+    .programming-ebook-area {
+        flex-direction: column;
+    }
+
+    .programming-ebook-details {
+        max-width: 100%;
+    }
+
+    .dev-banner-section {
+        background-image: url(../images/img/development-banner2.webp);
+    }
+
+    .development-banner-area .video-play-btn {
+        margin-top: 30px;
+        margin-bottom: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Development Css End */
+    /* Language Css Start */
+    .lms-banner-1 {
+        margin-left: 0px;
+    }
+
+    .lms-banner-content-1 {
+        margin-bottom: 30px;
+    }
+
+    /* Language Css End */
+    /* Kindergarten Css Start */
+    .kg-banner-area {
+        padding-top: 40px;
+    }
+
+    /* Kindergarten Css End */
+    /* Marketplace Css Start */
+    .counter-area-wrap2 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .counter-single-item2:nth-of-type(3)::after {
+        display: none;
+    }
+
+    .play-btn-2 {
+        height: 90px;
+        width: 90px;
+    }
+
+    /* Marketplace Css End */
+    /* University Css Start */
+    .event-details-banner-wrap {
+        flex-direction: column;
+    }
+
+    /* University Css End */
+}
+
+
+@media all and (max-width: 767px) {
+    .fs-32px {
+        font-size: 28px !important;
+    }
+
+    .fs-34px {
+        font-size: 30px !important;
+    }
+
+    .fs-40px {
+        font-size: 34px !important;
+    }
+
+    .lh-44px {
+        line-height: 40px !important;
+    }
+
+    .fs-48px {
+        font-size: 38px !important;
+    }
+
+    .fs-56px {
+        font-size: 40px !important;
+    }
+
+    .fs-82px {
+        font-size: 54px !important;
+    }
+
+    .lh-42px {
+        line-height: 37px !important;
+    }
+
+    .lh-52px {
+        line-height: 43px !important;
+    }
+
+    .lh-107px {
+        line-height: 66px !important;
+    }
+
+
+    /* Header Css Start */
+    .edu-offcanvas .offcanvas-header {
+        padding: 24px 24px 32px 24px;
+    }
+
+    .header-wrap {
+        padding: 20px 0;
+    }
+
+    /* Header Css End */
+    /* Footer Css Start */
+    .footer-nav-wrap {
+        width: calc(50% - 10px);
+    }
+
+    .footer-contact-subscribe {
+        max-width: 380px;
+    }
+
+    /* Footer Css End */
+    /* Homepage 1 Css Start */
+    .home1-banner-section::before {
+        top: inherit;
+        bottom: -70px;
+    }
+
+    .home1-banner-content {
+        padding: 30px 0 0 0;
+    }
+
+    .why-choose-wrap1 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .why-choose1-single:nth-of-type(2):after {
+        display: none;
+    }
+
+    .why-choose1-single:nth-of-type(3):after {
+        display: block;
+    }
+
+    .why-choose1-single .total {
+        font-size: 55px;
+        line-height: 60px;
+    }
+
+    .why-choose-section1::after {
+        width: 380px;
+    }
+
+    .why-choose-section1::before {
+        width: 380px;
+    }
+
+    .home1-download-area .title {
+        font-size: 34px;
+    }
+
+    .home1-section-title .title {
+        font-size: 30px;
+        line-height: 34px;
+    }
+
+    /* Homepage 1 Css End */
+
+    /* Meditation Css Start */
+    .maditation-banner-image img {
+        max-width: 85%;
+    }
+
+    .maditation-banner-left .info {
+        max-width: 100%;
+    }
+
+    .harmony-title-area .title {
+        font-size: 45px;
+        line-height: 55px;
+    }
+
+    .single-harmony-yoga .overlay .name {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .posesjourney-title-area .title {
+        font-size: 45px;
+        line-height: 55px;
+    }
+
+    .posejourney-overley .title-area .title {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .yoga-benefit-list {
+        width: 100%;
+    }
+
+    .yoga-benefit-left .yoga-benefit-image {
+        order: -1;
+    }
+
+    .yoga-benefit-left .title {
+        text-align: left;
+    }
+
+    .yoga-benefit-left .info {
+        text-align: left;
+    }
+
+    .yoga-benefit-area>.title {
+        font-size: 45px;
+        line-height: 55px;
+    }
+
+    .pricing-area-title {
+        font-size: 45px;
+        line-height: 55px;
+    }
+
+    .meditation-blog-title-area .title {
+        font-size: 45px;
+        line-height: 55px;
+    }
+
+    .single-yoga-pricing .price {
+        font-size: 45px;
+        line-height: 55px;
+    }
+
+    .true-self-details .title {
+        font-size: 45px;
+        line-height: 55px;
+    }
+
+    /* Meditation Css End */
+
+    /* Cooking Css Start */
+    .cooking-banner-details .title {
+        font-size: 43px;
+        line-height: 59px;
+    }
+
+    .cooking-banner-details .title .highlight {
+        font-size: 48px;
+        line-height: 67px;
+    }
+
+    .cooking-banner-details .title .small {
+        font-size: 31px;
+        line-height: 45px;
+    }
+
+    .cooking-counter-single .total {
+        font-size: 60px;
+        line-height: 78px;
+    }
+
+    .frequently-qna-title-area {
+        flex-direction: column;
+    }
+
+    .frequently-qna-title-area>.title {
+        max-width: 100%;
+    }
+
+    .frequently-qna-title-area>.info {
+        max-width: 100%;
+    }
+
+    .cooking-section-title>.title {
+        font-size: 30px;
+        line-height: 37px;
+    }
+
+    .cooking-popular-instructor .details .name {
+        font-size: 22px;
+        line-height: 37px;
+    }
+
+    /* Cooking Css End */
+    /* Development Css Start */
+    .development-banner-area>.title {
+        font-size: 38px;
+        line-height: 53px;
+    }
+
+    .learning-coding-card {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .dev-section-title>.title {
+        font-size: 30px;
+        line-height: 37px;
+    }
+
+    .programming-ebook-details .title {
+        font-size: 30px;
+    }
+
+    .software-development-details>.title {
+        font-size: 30px;
+        line-height: 37px;
+    }
+
+    .development-banner-area .video-play-btn {
+        margin-bottom: 230px;
+    }
+
+    .video-play-btn .icon {
+        min-width: 55px;
+        width: 55px;
+        height: 55px;
+    }
+
+    .development-banner-area {
+        margin-top: 40px;
+    }
+
+    /* Development Css End */
+    /* Language Css Start */
+    .testimonial-details-wrap1 {
+        padding: 0px 65px;
+    }
+
+    /* Language Css End */
+    /* Kindergarten Css Start */
+    .kg-counter-title {
+        font-size: 35px;
+        line-height: 48px;
+    }
+
+    /* Kindergarten Css End */
+    /* Marketplace Css Start */
+    .counter-area-wrap2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .counter-single-item2:nth-of-type(3)::after {
+        display: block;
+    }
+
+    .counter-single-item2:nth-of-type(2)::after {
+        display: none;
+    }
+
+    /* Marketplace Css End */
+}
+
+
+@media all and (max-width: 575px) {
+    .fs-28px {
+        font-size: 24px !important;
+    }
+
+    .fs-32px {
+        font-size: 25px !important;
+    }
+
+    .fs-34px {
+        font-size: 27px !important;
+    }
+
+    .fs-40px {
+        font-size: 30px !important;
+    }
+
+    .fs-48px {
+        font-size: 35px !important;
+    }
+
+    .fs-56px {
+        font-size: 36px !important;
+    }
+
+    .fs-82px {
+        font-size: 45px !important;
+    }
+
+
+    .lh-36px {
+        line-height: 34px !important;
+    }
+
+    .lh-42px {
+        line-height: 34px !important;
+    }
+
+    .lh-44px {
+        line-height: 36px !important;
+    }
+
+    .lh-52px {
+        line-height: 38px !important;
+    }
+
+    .lh-107px {
+        line-height: 55px !important;
+    }
+
+    .row-20 {
+        --bs-gutter-x: inherit;
+    }
+
+    .row-28 {
+        --bs-gutter-x: inherit;
+    }
+
+    .row-30 {
+        --bs-gutter-x: inherit;
+    }
+
+    .g-28px {
+        --bs-gutter-x: inherit;
+    }
+
+    .two-accordion-wrap .row {
+        --bs-gutter-x: inherit;
+    }
+
+    .gx-30px {
+        --bs-gutter-x: inherit;
+    }
+
+    /* Footer Css Start */
+    .footer-bottom-nav {
+        justify-content: center;
+    }
+
+    .footer-bottom-wrap .copyright {
+        text-align: center;
+    }
+
+    .footer-bottom-wrap {
+        justify-content: center !important;
+    }
+
+    /* Footer Css End */
+    /* Homepage 1 Css Start */
+    .home1-banner-content .title {
+        font-size: 37px;
+        line-height: 45px;
+    }
+
+    .home1-banner-section::before {
+        display: none;
+    }
+
+    .home1-banner-section::after {
+        display: none;
+    }
+
+    .home1-section-title .title {
+        font-size: 27px;
+        line-height: 30px;
+    }
+
+    .course-card1-link {
+        max-width: 320px;
+        margin: 0 auto;
+    }
+
+    .why-choose-area1>.title {
+        font-size: 29px;
+        line-height: 33px;
+    }
+
+    .why-choose1-single .total {
+        font-size: 50px;
+        line-height: 55px;
+        margin-bottom: 8px;
+    }
+
+    .why-choose-wrap1 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .why-choose1-single::after {
+        display: none;
+    }
+
+    .why-choose-section1::after {
+        width: 345px;
+    }
+
+    .why-choose-section1::before {
+        width: 345px;
+    }
+
+    .blog-post1-link {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+    .home1-download-area .title {
+        font-size: 32px;
+    }
+
+    .elegant-testimonial-2 {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .elegant-testimonial-1 {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    /* Homepage 1 Css End */
+
+    /* Meditation Css Start */
+    .single-harmony-yoga {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .maditation-banner-image img {
+        max-width: 95%;
+    }
+
+    .maditation-class-participant .total {
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .maditation-beginner-lesson .total {
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .pose-journey-link {
+        max-width: 350px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .harmony-title-area .title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .posesjourney-title-area .title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .yoga-benefit-area>.title {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .pricing-area-title {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .meditation-blog-title-area .title {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .single-yoga-pricing .price {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .meditation-blog-link {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+    .true-self-details .title {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    /* Meditation Css End */
+
+    /* Cooking Css Start */
+    .cooking-banner-details .title {
+        font-size: 40px;
+        line-height: 54px;
+    }
+
+    .cooking-banner-details .title .highlight {
+        font-size: 44px;
+        line-height: 61px;
+    }
+
+    .cooking-banner-details .title .small {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .cooking-services-area {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .cooking-single-service:nth-of-type(1)::after {
+        display: none;
+    }
+
+    .cooking-single-service:nth-of-type(3) {
+        grid-column: span 1;
+    }
+
+    .cooking-course-link {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+    .cooking-course-list-banner-title {
+        flex-direction: column;
+        row-gap: 16px;
+        align-items: flex-start !important;
+    }
+
+    .cooking-course-list-banner-title .banner {
+        width: 100%;
+    }
+
+    .cooking-course-list-link {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+    .cooking-course-list-other {
+        flex-wrap: wrap;
+    }
+
+    .cooking-course-list-other .date-time {
+        justify-content: flex-start;
+        width: calc(50% - 8px);
+    }
+
+    .cooking-course-list-other .date-time::after {
+        right: 0;
+        height: 45px;
+    }
+
+    .cooking-course-list-other .date-time:nth-of-type(2):after {
+        display: none;
+    }
+
+    .cooking-course-list-other .date-time-price {
+        justify-content: flex-start;
+    }
+
+    .cooking-course-list-banner-title .title-wrap .title {
+        margin-bottom: 14px;
+    }
+
+    .cooking-course-list-other .date-time .info {
+        margin-bottom: 6px;
+    }
+
+    .cooking-course-list-other .date-time-price .info {
+        margin-bottom: 6px;
+    }
+
+    .cooking-counter-single {
+        max-width: 100%;
+    }
+
+    .cooking-counter-single::after {
+        display: none;
+    }
+
+    .cooking-counter-single .total {
+        font-size: 55px;
+        line-height: 75px;
+    }
+
+    .become-instructor-video-area .play-icon {
+        height: 80px;
+        width: 80px;
+    }
+
+    .become-instructor-video-area .play-icon>img {
+        margin-left: 4px;
+        width: 20px;
+    }
+
+    .frequently-qna-title-area>.title {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .list-link1-card {
+        flex-direction: column;
+    }
+
+    .list-link1-card .banner {
+        max-width: 100%;
+    }
+
+    .list-news1-link {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+    .cooking-section-title>.title {
+        font-size: 27px;
+        line-height: 32px;
+    }
+
+    /* Cooking Css End */
+    /* Development Css Start */
+    .development-banner-area>.title {
+        font-size: 33px;
+        line-height: 47px;
+    }
+
+    .dev-course-card-link {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+    .dev-section-title>.title {
+        font-size: 27px;
+        line-height: 32px;
+    }
+
+    .programming-ebook-details .title {
+        font-size: 27px;
+        line-height: 34px;
+    }
+
+    .swiper-button-wrap .swiper-button-next,
+    .swiper-button-wrap .swiper-button-prev {
+        height: 38px;
+        width: 38px;
+    }
+
+    .swiper-button-wrap .swiper-button-next:after,
+    .swiper-button-wrap .swiper-button-prev:after {
+        height: 38px;
+        width: 38px;
+        background-size: 38px;
+    }
+
+    .dev-student-testimonial {
+        padding: 24px 20px;
+    }
+
+    .dev-news-link {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+    .dev-banner-section {
+        background-image: url(../images/img/development-banner3.webp);
+    }
+
+    .development-banner-area .video-play-btn {
+        margin-bottom: 185px;
+    }
+
+    /* Development Css End */
+    /* Language Css Start */
+    .list-view-banner1 {
+        max-width: 100%;
+    }
+
+    .list-view-banner2 {
+        max-width: 100%;
+    }
+
+    .max-sm-350px {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+    .lms-banner-1 {
+        margin: 0 auto;
+    }
+
+    .lms-banner-items1 {
+        margin: 0 auto;
+    }
+
+    .testimonial-details-wrap1 .slick-next,
+    .testimonial-details-wrap1 .slick-prev {
+        height: 45px;
+        width: 45px;
+    }
+
+    .testimonial-details-wrap1 {
+        padding: 0px 45px;
+    }
+
+    /* Language Css End */
+
+    /* Kindergarten Css Start */
+    .trusted-companies-title {
+        padding-right: 0px;
+        position: inherit;
+        max-width: 100%;
+    }
+
+    .trusted-companies-title::after {
+        display: none;
+    }
+
+    .kg-counter-title {
+        font-size: 32px;
+        line-height: 45px;
+    }
+
+    .kg-banner-area {
+        padding-top: 20px;
+    }
+
+    .counter-area-wrap1 {
+        padding: 45px 30px;
+    }
+
+    /* Kindergarten Css End */
+    /* Marketplace Css Start */
+    .lms-banner-area-3 {
+        padding: 76px 26px;
+    }
+
+    .counter-area-wrap2 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .counter-single-item2::after {
+        display: none;
+    }
+
+    .subscribe-area-1 {
+        padding: 50px 40px;
+    }
+
+    /* Marketplace Css End */
+    /* University Css Start */
+    .lms-event-number {
+        max-width: max-content;
+        min-width: 70px;
+    }
+
+    .lms-1-card-body.p-40px {
+        padding: 40px 24px !important;
+    }
+
+    .list-group-card-item {
+        padding: 16px 20px;
+    }
+
+    .list-group-card-header {
+        padding: 15px 20px;
+    }
+
+    .list-group-card-footer {
+        padding: 15px 20px;
+    }
+
+    /* University Css End */
+}
+
+
+@media all and (max-width: 450px) {
+
+    /* Development Css Start */
+    .development-banner-area .video-play-btn {
+        margin-bottom: 140px;
+    }
+
+    /* Development Css End */
+    /* Marketplace Css Start */
+    .subscribe-form-inner {
+        flex-direction: column;
+        /* align-items: flex-start !important; */
+    }
+
+    /* Marketplace Css End */
+}

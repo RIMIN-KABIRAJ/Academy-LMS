@@ -1,0 +1,45 @@
+.eProgress {
+  display: flex;
+  height: $h-12;
+  overflow: hidden;
+  font-size: 9px;
+  font-weight: $fw_Medium;
+  background-color: $eColor_Whiteish;
+  border-radius: 5px;
+}
+.eProgress-multi {
+  .eProgress-bar {
+    border-radius: 0 !important;
+    &:first-child {
+      border-radius: 5px 0 0 5px !important;
+    }
+    &:last-child {
+      border-radius: 0 5px 5px 0 !important;
+    }
+  }
+}
+.eProgress-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #000;
+  border-radius: 5px;
+  transition: width 0.6s ease;
+}
+.eProgress-bar-striped {
+  background-image: linear-gradient(
+    -45deg,
+    #61c1f8 25%,
+    transparent 25%,
+    transparent 50%,
+    #61c1f8 50%,
+    #61c1f8 75%,
+    transparent 75%,
+    transparent
+  );
+  background-size: 1rem 1rem;
+}

@@ -1,0 +1,130 @@
+// Default Tabs
+.eNav-Tabs {
+  border-bottom-color: $eColor_Darkish;
+  margin-bottom: 10px;
+  button.nav-link {
+    font-size: 13px;
+    font-weight: $fw_Medium;
+    color: $eColor_Blueish;
+    padding: 2px 20px;
+    &.active,
+    &:hover {
+      color: $eColor_Blueish;
+      border-color: $eColor_Darkish $eColor_Darkish #fff;
+      border-radius: 5px 5px 0 0;
+    }
+  }
+}
+// Justify Tabs
+.eNav-Tabs-justify {
+  margin-bottom: 10px;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  button.nav-link {
+    font-size: 13px;
+    font-weight: $fw_Medium;
+    color: $eColor_Blueish;
+    padding: 2px 16px;
+    &.active {
+      color: #fff;
+      background-color: $eColor_Blue;
+    }
+  }
+}
+// Vertical Tabs
+.vTabs-gap {
+  gap: 30px;
+  @media screen and (max-width: 767px) {
+    gap: 10px;
+  }
+}
+.eNav-Tabs-vertical {
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  flex-basis: 97px;
+  @media screen and (max-width: 767px) {
+    flex-basis: 100%;
+  }
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  ~ .eNav-Tabs-content {
+    flex-basis: calc(100% - 97px);
+  }
+  button.nav-link {
+    font-size: 13px;
+    font-weight: $fw_Medium;
+    color: $eColor_Blueish;
+    padding: 2px 16px;
+    text-align: left;
+    &.active {
+      color: #fff;
+      background-color: $eColor_Blue;
+    }
+  }
+}
+// Cutom tabs
+.eNav-Tabs-custom {
+  border-bottom: none;
+  margin-bottom: 10px;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  gap: 50px;
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: $eColor_Darkish;
+  }
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  button.nav-link {
+    font-size: 13px;
+    font-weight: $fw_Medium;
+    color: $eColor_Blueish;
+    padding-left: 0;
+    padding-right: 0;
+    padding: 0 0 14px 0;
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s;
+    &.active,
+    &:hover {
+      border-color: transparent;
+      background: transparent !important;
+      span {
+        opacity: 1;
+        z-index: 1;
+        background-color: $eColor_Blue;
+      }
+    }
+    span {
+      display: inline-block;
+      width: 100%;
+      height: 2px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      background-color: $eColor_Blue;
+      z-index: 1;
+      opacity: 0;
+    }
+  }
+}
+// Tab content
+.eNav-Tabs-content {
+  .tab-pane {
+    p {
+      font-size: 12px;
+      color: $eColor_Blackish;
+    }
+  }
+}

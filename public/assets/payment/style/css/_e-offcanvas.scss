@@ -1,0 +1,47 @@
+.drawer-item {
+  ul {
+    gap: 16px;
+  }
+}
+.eBtn-offcanvas {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: $fw_Regular;
+  line-height: 21px;
+  color: #fff;
+  width: 75px;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.eOffcanvas {
+  .offcanvas-header {
+    padding: 20px;
+    padding-bottom: 0;
+  }
+  .offcanvas-body {
+    padding: 20px;
+    padding-top: 0;
+    h5 {
+      font-size: 15px;
+      font-weight: $fw_Medium;
+      color: $eColor_Blueish;
+    }
+    p {
+      font-size: 12px;
+      font-weight: $fw_Regular;
+      color: $eColor_Blackish;
+    }
+  }
+}
+.offcanvas-btn {
+  width: 13px;
+  svg {
+    fill: $eColor_Blackish;
+  }
+}

@@ -1,0 +1,142 @@
+.colorGradient {
+  border-radius: 50%;
+  width: 172px;
+  height: 172px;
+  transform: rotate(15deg);
+  position: relative;
+  margin-bottom: 20px;
+}
+.colors_1 {
+  position: absolute;
+  top: 35%;
+  left: 10%;
+  transform: rotate(-15deg);
+  color: #fff;
+  font-size: 12px;
+}
+.colors_2 {
+  position: absolute;
+  top: 35%;
+  right: 10%;
+  transform: rotate(-15deg);
+  color: #fff;
+  font-size: 12px;
+}
+.colors_3 {
+  position: absolute;
+  bottom: 15%;
+  left: 35%;
+  transform: rotate(-15deg);
+  color: #fff;
+  font-size: 12px;
+}
+.blueColors {
+  background: conic-gradient(
+    #4dbfff 0deg 120deg,
+    #b1e2fe 120deg 240deg,
+    #00a3ff 240deg 360deg
+  );
+}
+.greenColors {
+  background: conic-gradient(
+    #86dfaf 0deg 120deg,
+    #c0f3d8 120deg 240deg,
+    #50cd89 240deg 360deg
+  );
+}
+.yellowColors {
+  background: conic-gradient(
+    #fedd69 0deg 120deg,
+    #f9ecbe 120deg 240deg,
+    #ffc700 240deg 360deg
+  );
+}
+.purpleColors {
+  background: conic-gradient(
+    #a57cfb 0deg 120deg,
+    #d3befe 120deg 240deg,
+    #7239ea 240deg 360deg
+  );
+}
+.redColors {
+  background: conic-gradient(
+    #fe90ab 0deg 120deg,
+    #fcc0cf 120deg 240deg,
+    #f1416c 240deg 360deg
+  );
+}
+
+// Backgrounds
+.ebg-primary {
+  background-color: $eColor_Blue !important;
+}
+.ebg-outline-primary {
+  color: $eColor_Blueish;
+  border-color: $eColor_Blue !important;
+  &:hover {
+    color: #fff;
+    background-color: $eColor_Blue;
+  }
+}
+.ebg-primary-dark {
+  background-color: $primary-dark !important;
+}
+.ebg-soft-primary {
+  background-color: $soft_blue !important;
+  color: $soft_blue_text !important;
+}
+.ebg-success {
+  background-color: $success !important;
+}
+.ebg-outline-success {
+  color: $eColor_Blueish;
+  border-color: $success !important;
+  &:hover {
+    color: #fff;
+    background-color: $success;
+  }
+}
+.ebg-soft-success {
+  background-color: $soft_success !important;
+  color: $soft_success_text !important;
+}
+.ebg-info {
+  background-color: $info !important;
+}
+.ebg-outline-info {
+  color: $eColor_Blueish;
+  border-color: $info !important;
+  &:hover {
+    color: #fff;
+    background-color: $info;
+  }
+}
+.ebg-soft-info {
+  background-color: $soft_info !important;
+  color: $soft_info_text !important;
+}
+.ebg-warning {
+  background-color: $warning !important;
+}
+.ebg-soft-warning {
+  background-color: $soft_warning !important;
+  color: $soft_warning_text !important;
+}
+.ebg-danger {
+  background-color: $dnager !important;
+}
+.ebg-soft-danger {
+  background-color: $soft_danger !important;
+  color: $soft_danger_text !important;
+}
+.ebg-soft-red {
+  background-color: $unpaid_bg !important;
+  color: $absent !important;
+}
+.ebg-dark {
+  background-color: $eColor_Blueish !important;
+}
+.ebg-soft-dark {
+  background-color: $soft_dark !important;
+  color: $soft_dark_text !important;
+}

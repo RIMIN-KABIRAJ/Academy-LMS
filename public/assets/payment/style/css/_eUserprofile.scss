@@ -1,0 +1,187 @@
+.user-profile-area {
+  gap: 40px;
+  .user-info {
+    flex: 1 0 330px;
+    max-width: 330px;
+    align-self: stretch;
+    background-color: #fff;
+    box-shadow: 0 6px 15px #00000001;
+    border-radius: 5px;
+    padding: 20px;
+    gap: 20px;
+    @media screen and (max-width: 991px) {
+      max-width: 465px;
+    }
+    @media screen and (max-width: 767px) {
+      max-width: 345px;
+    }
+  }
+  .user-details-info {
+    flex: 1 0 auto;
+    overflow: hidden;
+    max-width: auto;
+    @media screen and (max-width: 991px) {
+      max-width: 465px;
+    }
+    @media screen and (max-width: 767px) {
+      max-width: 345px;
+    }
+    // min-width: 1270px;
+    .eNav-Tabs-custom {
+      overflow-x: scroll;
+      background-color: #fff;
+      box-shadow: 0 6px 15px #00000001;
+      border-radius: 5px;
+      margin-bottom: 20px;
+      padding: 20px 30px 0;
+      &::after {
+        display: none;
+      }
+      button.nav-link {
+        font-size: 15px;
+        line-height: 20px;
+        font-weight: $fw_Medium;
+        color: $eColor_Blackish;
+        &.active,
+        &:hover {
+          color: $eColor_Blueish;
+        }
+      }
+    }
+    .eNav-Tabs-content {
+      background-color: #fff;
+      box-shadow: 0 6px 15px #00000001;
+      border-radius: 5px;
+      padding: 30px;
+    }
+  }
+}
+
+.user-info-basic {
+  gap: 20px;
+  padding-top: 20px;
+  position: relative;
+  .userImg {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    background-color: $eColor_Blackish;
+    margin: 0 auto;
+  }
+  .userContent {
+    .title {
+      font-size: 18px;
+      font-weight: $fw_SemiBold;
+      color: $eColor_Blueish;
+      padding-bottom: 5px;
+      line-height: 27px;
+    }
+    .info {
+      font-size: 13px;
+      line-height: 21px;
+      color: $eColor_Blackish;
+      padding-bottom: 8px;
+    }
+    .user-status-verify {
+      max-width: 88px;
+      margin: 0 auto;
+      background-color: #eef9ff;
+      border-radius: 3px;
+      padding: 4px 11px;
+      font-size: 11px;
+      font-weight: $fw_Medium;
+      color: $eColor_Blue;
+      line-height: 17px;
+    }
+  }
+}
+.user-graphic-element {
+  &-1 {
+    position: absolute;
+    top: 0;
+    left: 28px;
+  }
+  &-2 {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+  }
+  &-3 {
+    position: absolute;
+    top: 63px;
+    right: 42px;
+  }
+}
+
+.user-edit-title {
+  border-bottom: 1px dashed $eColor_Seperate;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+  .title {
+    font-size: 16px;
+    font-weight: $fw_SemiBold;
+    font-size: 16px;
+    line-height: 25px;
+    color: $eColor_Blueish;
+  }
+  .userInfo-edit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 101px;
+    height: 30px;
+    border-radius: 3px;
+    background-color: #f3f9fe;
+    font-size: 12px;
+    font-weight: $fw_Medium;
+    line-height: 18px;
+    color: $eColor_Blackish;
+    span {
+      padding-right: 6px;
+    }
+  }
+}
+.user-info-edit-items {
+  .item {
+    padding-bottom: 14px;
+    &:last-child {
+      padding-bottom: 0;
+    }
+    .title {
+      font-size: 15px;
+      font-weight: $fw_SemiBold;
+      line-height: 23px;
+      color: $eColor_Blueish;
+    }
+    .info {
+      font-size: 13px;
+      font-weight: $fw_Medium;
+      line-height: 20px;
+      color: $eColor_Blackish;
+    }
+  }
+}
+
+.eForm-select {
+  ~ .select2-container {
+    width: 100% !important;
+  }
+}
+
+.userFormEdit-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 127px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: $eColor_Blue;
+  font-size: 12px;
+  font-weight: $fw_Medium;
+  color: #fff;
+  margin-left: auto;
+  margin-top: 13px;
+  &:hover {
+    color: #fff;
+  }
+}

@@ -1,0 +1,63 @@
+.carouselOnly,
+.carouselControlsOnly,
+.carouselIndicatorsOnly {
+  overflow: hidden;
+  border-radius: 5px;
+  position: relative;
+}
+.carouselControlsOnly,
+.carouselIndicatorsOnly {
+  .swiper-button-next,
+  .swiper-button-prev {
+    width: auto;
+    height: auto;
+    &::after {
+      color: transparent;
+      display: none;
+    }
+    svg {
+      width: 20px;
+      height: 20px;
+      color: $eColor_Blackish;
+    }
+  }
+  .swiper-button-next {
+    right: 14px;
+  }
+  .swiper-button-prev {
+    left: 15px;
+  }
+}
+.carouselIndicatorsOnly {
+  .swiper-pagination-bullet {
+    width: 30px;
+    height: 3px;
+    border-radius: 3px;
+    background-color: $eColor_Blackish;
+    opacity: 30%;
+  }
+  .swiper-pagination-bullet-active {
+    opacity: 100%;
+  }
+}
+// Caption
+.eSwiper-caption {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  width: 90%;
+  h4 {
+    font-size: 13px;
+    font-weight: $fw_Medium;
+    line-height: 22px;
+    color: $eColor_Blueish;
+    padding-bottom: 5px;
+  }
+  p {
+    font-size: 11px;
+    line-height: 19px;
+    color: $eColor_Blackish;
+  }
+}

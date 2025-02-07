@@ -1,0 +1,48 @@
+.eBreadcrumb {
+  gap: 20px;
+  li {
+    &:first-child {
+      color: $eColor_Blueish;
+      font-weight: $fw_SemiBold;
+      position: relative;
+      &::before {
+        content: ">";
+        position: absolute;
+        top: 0;
+        right: -17px;
+        width: 10px;
+        height: 10px;
+      }
+    }
+    font-size: 12px;
+    line-height: 19px;
+    color: $eColor_Blackish;
+  }
+}
+.eBreadcrumb-2 {
+  gap: 15px;
+  li {
+    position: relative;
+    &::before {
+      content: "";
+      position: absolute;
+      top: 55%;
+      right: -10px;
+      transform: translateY(-50%);
+      width: 5px;
+      height: 2px;
+      background-color: $eColor_Blackish;
+    }
+    &:last-child {
+      &::before {
+        display: none;
+      }
+    }
+    a {
+      font-size: 12px;
+      font-weight: $fw_Medium;
+      line-height: 18px;
+      color: $eColor_Blackish;
+    }
+  }
+}

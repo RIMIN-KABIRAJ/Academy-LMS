@@ -1,0 +1,4 @@
+.sidebar .nav-links>li .icon-link,
+.sidebar .nav-links>li .sidebar_icon {
+    height: auto !important;
+}

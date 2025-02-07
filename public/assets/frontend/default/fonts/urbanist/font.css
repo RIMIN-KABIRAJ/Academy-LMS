@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'urbanist';
+  src: url('./static/Urbanist-Regular.ttf');
+  font-weight: 400; /* Thin */
+}
+@font-face {
+  font-family: 'urbanist';
+  src: url('./static/Urbanist-Thin.ttf');
+  font-weight: 100; /* Thin */
+}
+@font-face {
+  font-family: 'urbanist';
+  src: url('./static/Urbanist-SemiBold.ttf');
+  font-weight: 500; /* Semi Bold */
+}
+@font-face {
+  font-family: 'urbanist';
+  src: url('./static/Urbanist-Bold.ttf');
+  font-weight: 700; /* Bold */
+}
+@font-face {
+  font-family: 'urbanist';
+  src: url('./static/Urbanist-ExtraBold.ttf');
+  font-weight: 800; /* Extra Bold */
+}

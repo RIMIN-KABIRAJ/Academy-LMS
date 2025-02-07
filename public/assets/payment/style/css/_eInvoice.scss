@@ -1,0 +1,173 @@
+.invoice_logo {
+  max-width: 125px;
+}
+
+.invoice_details {
+  padding-top: 24px;
+  .item {
+    .sub-title,
+    .title {
+      font-size: 16px;
+      color: $eColor_Blackish;
+    }
+    .title {
+      font-weight: $fw_SemiBold;
+      color: $eColor_Blueish !important;
+    }
+  }
+}
+.invoice_title {
+  font-size: 24px;
+  font-weight: $fw_SemiBold;
+  line-height: 35px;
+  color: $eColor_Blueish;
+}
+.invoice_summary {
+  padding-top: 38px;
+  gap: 27px;
+  margin-bottom: 60px;
+}
+
+.invoice_summary_item {
+  .summary_title {
+    gap: 8px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid $eColor_Seperate;
+    .summary_title_icon {
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      border: 3px solid $eColor_Blackish;
+      border-radius: 50%;
+      &.allowance_icon {
+        border-color: $eColor_Blue;
+      }
+      &.deduction_icon {
+        border-color: $eColor_Green;
+      }
+      &.payslip_icon {
+        border-color: $absent;
+      }
+    }
+    h4 {
+      font-size: 16px;
+      font-weight: $fw_SemiBold;
+      line-height: 25px;
+      color: $eColor_Blueish;
+    }
+  }
+}
+
+.summary_table {
+  .summary_thead {
+    padding-top: 15px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid $eColor_Seperate;
+    margin-bottom: 17px;
+    h4 {
+      font-size: 14px;
+      font-weight: $fw_Medium;
+      line-height: 21px;
+      color: $eColor_Blackish;
+    }
+  }
+  .summary_tbody {
+    .amount {
+      font-size: 16px;
+      font-weight: $fw_Medium;
+      line-height: 25px;
+      color: $eColor_Blueish;
+    }
+  }
+}
+
+// Payslip Modal
+.payslip_modal_content {
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 10px 25px rgba($eColor_Blackish, 0.25);
+  .modal-header {
+    padding: 20px;
+    border-bottom: 1px solid $eColor_Seperate;
+    .modal-title {
+      font-size: 18px;
+      font-weight: $fw_SemiBold;
+      line-height: 27px;
+      color: $eColor_Blueish;
+    }
+    button.btn-close {
+      background: transparent url(../images/close-2.svg) center/1em auto
+        no-repeat;
+    }
+  }
+  .payslip_modal_body {
+    padding-bottom: 0;
+  }
+}
+.payslip_user_summary {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(236, 236, 241, 1) 85%,
+    rgba(237, 237, 242, 1) 100%
+  );
+  height: 131px;
+  padding: 23px 0;
+  border-radius: 10px;
+  margin-top: 4px;
+  .item {
+    font-size: 15px;
+    font-weight: $fw_SemiBold;
+    line-height: 23px;
+    color: $eColor_Blackish;
+    padding-bottom: 8px;
+    &:last-child {
+      padding-bottom: 0;
+    }
+    .inner-item {
+      color: $eColor_Blueish;
+    }
+  }
+}
+.payslip_modal_body_content {
+  gap: 17px;
+  padding-top: 14px;
+  border-top: 1px solid $eColor_Seperate;
+  margin-bottom: 0;
+  .summary_title {
+    padding-bottom: 8px;
+  }
+  .summary_thead {
+    padding: 5px 0 4px;
+    border-bottom-style: dashed;
+    margin-bottom: 8px;
+    h4 {
+      font-size: 13px;
+      line-height: 20px;
+    }
+  }
+  .salary_table {
+    max-width: 100%;
+  }
+}
+
+.salary_table {
+  max-width: 360px;
+  margin-left: auto;
+  @media screen and (max-width: 767px) {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .eTable-2 {
+    margin-bottom: 0 !important;
+    tbody tr td {
+      &:last-child {
+        padding-right: 0 !important;
+        div {
+          text-align: right;
+        }
+      }
+    }
+  }
+}

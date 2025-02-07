@@ -1,0 +1,21 @@
+.p-h-12 {
+  height: $h-12 !important;
+  border-radius: 5px !important;
+  .eProgress-bar {
+    border-radius: 5px !important;
+  }
+}
+.p-h-16 {
+  height: $h-16 !important;
+  border-radius: 8px !important;
+  .eProgress-bar {
+    border-radius: 8px !important;
+  }
+}
+.p-h-20 {
+  height: $h-20 !important;
+  border-radius: 12px !important;
+  .eProgress-bar {
+    border-radius: 12px !important;
+  }
+}

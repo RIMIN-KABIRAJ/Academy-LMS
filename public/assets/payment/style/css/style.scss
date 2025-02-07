@@ -1,0 +1,128 @@
+@import "variable";
+@import "backgrounds";
+@import "widths";
+@import "heights";
+@import "common";
+@import "sidebar";
+@import "top_header";
+@import "main-section";
+
+body {
+  background-color: #f5f8fa;
+}
+
+.main-section {
+  margin: 0 20px;
+}
+.mainSection-title {
+  padding-bottom: 14px;
+  h4 {
+    font-size: 16px;
+    font-weight: $fw_SemiBold;
+    line-height: 26px;
+    color: $eColor_Blueish;
+  }
+}
+.eSection-wrap {
+  padding: 20px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #fff;
+  box-shadow: 0 6px 20px #797c8b04;
+  border-radius: 10px;
+  .title {
+    border-bottom: 1px solid $eColor_Darkish;
+    margin-bottom: 20px;
+    padding-bottom: 18px;
+    h3 {
+      font-size: 15px;
+      line-height: 23px;
+      color: $eColor_Blueish;
+    }
+    p {
+      font-size: 12px;
+      line-height: 22px;
+      max-width: 710px;
+      color: $eColor_Blackish;
+    }
+  }
+}
+.eSection-wrap-2 {
+  padding: 30px 20px;
+  background-color: #fff;
+  box-shadow: 0 6px 15px #00000001;
+  border-radius: 5px;
+}
+.eMain {
+  padding-bottom: 20px;
+}
+.column-title {
+  margin-bottom: 20px;
+  font-size: 13px;
+  line-height: 22px;
+  font-weight: $fw_Medium;
+  color: $eColor_Blueish;
+  padding-left: 12px;
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: $eColor_Whiteish;
+  }
+}
+
+.copyright-text {
+  padding-top: 30px;
+  padding-bottom: 13px;
+  p {
+    font-size: 16px;
+    color: $eColor_Blackish;
+    span {
+      color: $eColor_Blue;
+    }
+  }
+}
+
+// Spacing
+.gr-15 {
+  row-gap: 15px;
+}
+.pr-10 {
+  padding-right: 10px;
+}
+
+@import "progress";
+@import "button-toolbar";
+@import "pagination";
+@import "alerts";
+@import "cards";
+@import "carousel";
+@import "e-offcanvas";
+@import "progressBar";
+@import "sweet-alerts";
+@import "nav-tabs";
+@import "colors";
+@import "eForms";
+@import "eImages";
+@import "eAccordion";
+@import "eTypography";
+@import "eCheckbox";
+@import "eRadio";
+@import "eSwitch";
+@import "eGeneral";
+@import "eToast";
+@import "eTable";
+@import "eBreadcrumb";
+@import "eClassRoutines";
+@import "eAdmin";
+@import "eAttendance";
+@import "eUserprofile";
+@import "eError";
+@import "eInvoice";
+@import "ePayment";

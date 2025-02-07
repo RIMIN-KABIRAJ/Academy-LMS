@@ -1,0 +1,84 @@
+// Color
+$eColor_Blue: #00a3ff;
+$eColor_Blue_bg: #00a3ff;
+$eColor_Blue_border: #00a3ff;
+$eColor_Blueish: #181c32;
+$eColor_Blueish_bg: #b0dff9;
+$eColor_Blueish_border: #7bc0e6;
+$eColor_Green: #50cd89;
+$eColor_Greenish_bg: #aae1cb;
+$eColor_Greenish_border: #83d4b3;
+$eColor_Orange: #ffc700;
+$eColor_Red: #f1416c;
+$eColor_Redish_bg: #fec0bf;
+$eColor_Redish_border: #f29a99;
+$eColor_Yellow: #ffc700;
+$eColor_Yellowish_bg: #ffe5ba;
+$eColor_Yellowish_border: #ebc27d;
+$eColor_Purple: #7239ea;
+$eColor_Purpleish_bg: #b9bbe5;
+$eColor_Purpleish_border: #8f92d1;
+$eColor_Blackish: #797c8b;
+$eColor_Blackish_bg: #cacfd4;
+$eColor_Blackish_border: #abafb2;
+$eColor_Seperate: #dedede;
+$eColor_Whiteish: #e3e4ea;
+$eColor_Whiteish_bg: #e3e4ea;
+$eColor_Whiteish_border: #cacfd4;
+$eColor_Darkish: #cacfd4;
+$eColor_Body: #f6f6f9;
+$primary-dark: #0079be;
+$success: #34c38f;
+$info: #556ee6;
+$warning: #f1b44c;
+$dnager: #f65e5e;
+$soft_blue: #daf1fe;
+$soft_blue_text: $eColor_Blue;
+$soft_success: #d1fee5;
+$soft_success_text: $eColor_Green;
+$soft_info: #eae3f9;
+$soft_info_text: $eColor_Purple;
+$soft_warning: #fcf5db;
+$soft_warning_text: $eColor_Orange;
+$soft_danger: #ffe9ef;
+$soft_danger_text: $eColor_Red;
+$soft_dark: #d6d6d6;
+$soft_dark_text: $eColor_Blueish;
+$table-light-bg: $eColor_Whiteish;
+$present: $eColor_Green;
+$absent: #f3416c;
+$dropdown_bg: #edf2f6;
+$unpaid_bg: #ffe1e8;
+
+// Font weight
+$fw_Light: 300;
+$fw_Regular: 400;
+$fw_Medium: 500;
+$fw_SemiBold: 600;
+$fw_Bold: 700;
+$fw_ExtraBold: 800;
+$fw_Black: 900;
+
+// Heights
+$h-12: 12px;
+$h-16: 16px;
+$h-20: 20px;
+
+@mixin bgBorder($bgColor, $borderColor, $borderRadius) {
+  background-color: $bgColor;
+  border: 1px solid $borderColor;
+  border-radius: $borderRadius;
+}
+@mixin fontFamily($fontSize, $fontWeight, $lineHeight, $textColor) {
+  font-size: $fontSize;
+  font-weight: $fontWeight;
+  line-height: $lineHeight;
+  color: $textColor;
+}
+@mixin widthHeight($maxWidth, $height) {
+  max-width: $maxWidth;
+  height: $height;
+}
+@mixin pxTorem($size) {
+  $fSize: $size/16px;
+}

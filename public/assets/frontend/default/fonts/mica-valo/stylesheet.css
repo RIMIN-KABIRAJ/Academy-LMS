@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Mica Valo';
+    src: url('MicaValo.woff2') format('woff2'),
+        url('MicaValo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

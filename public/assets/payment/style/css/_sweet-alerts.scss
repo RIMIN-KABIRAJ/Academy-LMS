@@ -1,0 +1,107 @@
+.eSweet_alerts_title {
+  font-size: 13px;
+  font-weight: $fw_Medium;
+  color: $eColor_Blueish;
+  text-align: center;
+  @media screen and (max-width: 575px) {
+    text-align: left;
+  }
+}
+.e_sAlert {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: $fw_Regular;
+  line-height: 40px;
+  color: #fff;
+  width: 94px;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  @include bgBorder($eColor_Blue_bg, $eColor_Blue_border, 5px);
+}
+.eModal {
+  .modal-dialog {
+    margin: 0 auto;
+    &.sweet-alerts {
+      max-width: 287px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    &.modal-dialog-centered {
+      justify-content: center;
+    }
+    .modal-content {
+      .modal-body {
+        padding: 13px 30px 20px !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .icon {
+          width: 68px;
+          height: 68px;
+          border: 1.5px solid $eColor_Whiteish_bg;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-bottom: 18px;
+          svg {
+            fill: $eColor_Blue;
+          }
+          &.icon-success {
+            svg {
+              fill: $eColor_Green;
+            }
+          }
+          &.icon-confirm {
+            svg {
+              fill: $eColor_Orange;
+            }
+          }
+        }
+        p {
+          font-size: 15px;
+          font-weight: $fw_Medium;
+          color: $eColor_Blueish;
+          padding-bottom: 16px;
+        }
+        .focus-text {
+          color: $eColor_Blackish;
+          margin-top: -10px;
+        }
+        button {
+          width: 68px;
+          height: 40px;
+          background-color: $eColor_Blue;
+          font-size: 13px;
+          font-weight: $fw_Medium;
+          color: #fff;
+        }
+        .confirmBtn {
+          display: flex;
+          gap: 14px;
+          .eBtn-green {
+            width: 116px;
+            background-color: $eColor_Green !important;
+          }
+          .eBtn-red {
+            width: 100px;
+            background-color: $eColor_Red !important;
+          }
+        }
+      }
+    }
+    &.text-sweet-alerts {
+      max-width: 320px;
+      .modal-body {
+        padding: 28px 0 !important;
+      }
+    }
+  }
+}

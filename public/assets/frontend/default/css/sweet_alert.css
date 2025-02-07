@@ -1,0 +1,121 @@
+.eSweet_alerts_title {
+    font-size: 13px;
+    font-weight: 500;
+    color: #181c32;
+    text-align: center;
+}
+@media screen and (max-width: 575px) {
+    .eSweet_alerts_title {
+        text-align: left;
+    }
+}
+
+.e_sAlert {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #fff;
+    width: 94px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: #00a3ff;
+    border: 1px solid #00a3ff;
+    border-radius: 5px;
+}
+
+.eModal .modal-dialog {
+    margin: 0 auto;
+}
+.eModal .modal-dialog.sweet-alerts {
+    max-width: 287px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.eModal .modal-dialog.modal-dialog-centered {
+    justify-content: center;
+}
+.eModal .modal-dialog .modal-content .modal-body {
+    padding: 13px 30px 20px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.eModal .modal-dialog .modal-content .modal-body .icon {
+    width: 68px;
+    height: 68px;
+    border: 1.5px solid #e3e4ea;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 18px;
+}
+.eModal .modal-dialog .modal-content .modal-body .icon svg {
+    fill: #00a3ff;
+}
+.eModal .modal-dialog .modal-content .modal-body .icon.icon-success svg {
+    fill: #50cd89;
+}
+.eModal .modal-dialog .modal-content .modal-body .icon.icon-confirm svg {
+    fill: #ffc700;
+}
+.eModal .modal-dialog .modal-content .modal-body p {
+    font-size: 15px;
+    font-weight: 500;
+    color: #181c32;
+    padding-bottom: 16px;
+}
+.eModal .modal-dialog .modal-content .modal-body .focus-text {
+    color: #797c8b;
+    margin-top: -10px;
+}
+.eModal .modal-dialog .modal-content .modal-body button {
+    width: 68px;
+    height: 40px;
+    background-color: #00a3ff;
+    font-size: 13px;
+    font-weight: 500;
+    color: #fff;
+}
+.eModal .modal-dialog .modal-content .modal-body .confirmBtn {
+    display: flex;
+    gap: 14px;
+}
+.eModal .modal-dialog .modal-content .modal-body .confirmBtn .eBtn-green {
+    width: 116px;
+    background-color: #50cd89 !important;
+}
+.eModal .modal-dialog .modal-content .modal-body .confirmBtn .eBtn-red {
+    width: 100px;
+    background-color: #f1416c !important;
+}
+.eModal .modal-dialog.text-sweet-alerts {
+    max-width: 320px;
+}
+.eModal .modal-dialog.text-sweet-alerts .modal-body {
+    padding: 28px 0 !important;
+}
+
+.confirmBtn a.confirm-btn.eBtn.eBtn-green {
+    width: auto !important;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.confirmBtn button.eBtn.eBtn-red {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 46px !important;
+}

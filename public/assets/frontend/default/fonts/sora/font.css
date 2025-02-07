@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'sora-regular';
+  src: url('./static/Sora-Regular.ttf');
+}
+@font-face {
+  font-family: 'sora-thin';
+  src: url('./static/Sora-Thin.ttf');
+}
+@font-face {
+  font-family: 'sora-semi-bold';
+  src: url('./static/Sora-Regular.ttf');
+}
+@font-face {
+  font-family: 'sora-bold';
+  src: url('./static/Sora-Bold.ttf');
+}
+@font-face {
+  font-family: 'sora-ex-bold';
+  src: url('./static/Sora-Bold.ttf');
+}

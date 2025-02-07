@@ -1,0 +1,392 @@
+/*Font Size*/
+.text-20px {
+    font-size: 20px !important;
+}
+
+.text-19px {
+    font-size: 19px !important;
+}
+
+.text-18px {
+    font-size: 18px !important;
+}
+
+.text-17px {
+    font-size: 17px !important;
+}
+
+.text-16px {
+    font-size: 16px !important;
+}
+
+.text-15px {
+    font-size: 15px !important;
+}
+
+.text-14px {
+    font-size: 14px !important;
+}
+
+.text-13px {
+    font-size: 13px !important;
+}
+
+.text-12px {
+    font-size: 12px !important;
+}
+
+.text-11px {
+    font-size: 11px !important;
+}
+
+.text-10px {
+    font-size: 10px !important;
+}
+
+.text-9px {
+    font-size: 9px !important;
+}
+
+.text-8px {
+    font-size: 8px !important;
+}
+
+/*Bootstrap toaster*/
+.search-box {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.search-box .icon {
+    display: inline-flex;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    cursor: pointer;
+}
+
+.search-box input {
+    padding: 12px 50px 12px 20px;
+    border-radius: 10px;
+    border: 1px solid #6b738530;
+    box-shadow: none !important;
+}
+
+.search-box input::placeholder {
+    width: 163px;
+    height: 23px;
+    top: 898px;
+    left: 50px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22.5px;
+}
+
+.add-question {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.add-question h1 {
+    padding: 11px o;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25.36px;
+    color: #192335;
+}
+
+.add-question a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6px;
+}
+
+.add-question a span {
+    display: inline-flex;
+}
+
+.gradient {
+    background-image: linear-gradient(
+        to right,
+        #2f57ef 0%,
+        #c664ff 51%,
+        #c664ff 100%
+    );
+    transition: 0.5s;
+    background-size: 200% auto;
+    box-shadow: 0 0 20px #eee;
+}
+
+.gradient:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.eBtn {
+    padding: 12px 30px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.user h1 {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22.5px;
+    color: #192335;
+    padding: 10.5px 0 10.5px 12px;
+}
+
+.user .image {
+    width: 50px;
+    aspect-ratio: 1/1;
+    border-radius: 100px;
+    background: red;
+    overflow: hidden;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.review {
+    border-bottom: 1px solid #dbdee4;
+    padding-bottom: 20px;
+}
+
+.parent-review {
+    margin-bottom: 20px;
+}
+
+.parent-review p {
+    font-weight: 500;
+    font-size: 15px;
+    color: #6b7385;
+    line-height: 27px;
+    margin-bottom: 16px;
+}
+
+.like,
+.reply {
+    cursor: pointer;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #6b7385;
+}
+
+#forum-area {
+    margin-bottom: 30px;
+}
+
+.group-menu {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 6px;
+    border-radius: 8px;
+    width: 160px;
+    box-shadow: 0px 3px 29px 0px #0000001a;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.4s;
+    position: absolute;
+    top: 100%;
+    right: 0px;
+}
+
+.group-menu li {
+    list-style: none;
+    padding: 8px;
+    border-radius: 8px;
+    transition: 0.4s;
+}
+
+.group-menu li:hover {
+    background: #edf0f7;
+}
+
+.group-menu li a {
+    color: #6b7385;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: 0.4s;
+}
+
+.group-menu li:hover a {
+    color: #192335;
+}
+
+.group-menu li a path {
+    transition: 0.4s;
+}
+
+.group-menu li:hover a path {
+    fill: #192335;
+}
+
+.three-dot {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.three-dot:hover .group-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.toast {
+    border-radius: 10px;
+}
+
+.toast-header {
+    color: #fff;
+    border-radius: 8px 8px 0px 0px;
+    border-bottom: none;
+}
+
+.toast-header .btn-close {
+    width: 20px;
+    height: 10px;
+    padding: 0px 1px;
+    filter: invert(1);
+}
+
+.toast-body {
+    color: #fff;
+    border-radius: 0px 0px 8px 8px;
+    padding: 0px 14px 14px 14px;
+}
+
+.toast.success .toast-header,
+.toast.success .toast-body {
+    background-color: #13a96c;
+}
+
+.toast.warning .toast-header,
+.toast.warning .toast-body {
+    background-color: rgb(229 153 40);
+}
+
+.toast.error .toast-header,
+.toast.error .toast-body {
+    background-color: rgb(255 85 119);
+}
+
+.like.active span,
+.dislike.active span {
+    color: #754ffe;
+}
+
+.like.active path,
+.dislike.active path {
+    fill: #754ffe;
+}
+
+.like,
+.dislike,
+.reply {
+    cursor: pointer;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #6b7385;
+}
+
+.like svg,
+.dislike svg {
+    width: 20px;
+    height: 20px;
+}
+.playing-header-btns > a{
+    min-height: 40px;
+    display: flex !important;
+    align-items: center;
+}
+.image-100 {
+    min-width: 100px !important;
+    width: 100px !important;
+    height: 100px !important;
+    border-radius: 50% !important;
+    object-fit: cover !important;
+}
+
+.image-80 {
+    width: 80px !important;
+    min-width: 80px !important;
+    height: 80px !important;
+    border-radius: 50% !important;
+    object-fit: cover !important;
+}
+
+.image-50 {
+    width: 50px !important;
+    min-width: 50px !important;
+    height: 50px !important;
+    border-radius: 50% !important;
+    object-fit: cover !important;
+}
+
+.image-45 {
+    width: 45px !important;
+    min-width: 45px !important;
+    height: 45px !important;
+    border-radius: 50% !important;
+    object-fit: cover !important;
+}
+
+.image-40 {
+    width: 40px !important;
+    min-width: 40px !important;
+    height: 40px !important;
+    border-radius: 50% !important;
+    object-fit: cover !important;
+}
+
+.image-35 {
+    width: 35px !important;
+    min-width: 35px !important;
+    height: 35px !important;
+    border-radius: 50% !important;
+    object-fit: cover !important;
+}
+
+.image-30 {
+    width: 30px !important;
+    min-width: 30px !important;
+    height: 30px !important;
+    border-radius: 50% !important;
+    object-fit: cover !important;
+}
+.max-w-auto{
+    max-width: auto;
+}

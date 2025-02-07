@@ -1,0 +1,78 @@
+.eAccordion {
+  @media screen and (max-width: 991px) {
+    margin-bottom: 20px;
+  }
+  .accordion-item {
+    border: 1px solid $eColor_Blackish_bg !important;
+    border-bottom: none !important;
+    border-radius: 0;
+    &:last-child {
+      border-bottom: 1px solid $eColor_Blackish_bg !important;
+    }
+    .accordion-header {
+      .accordion-button {
+        font-size: 13px;
+        line-height: 30px;
+        font-weight: $fw_Medium;
+        color: $eColor_Blueish;
+        box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+        padding: 12px 20px;
+        &:not(.collapsed) {
+          position: relative;
+          background-color: #f6f2ff;
+          border-top: 1px solid #f0e9ff;
+          border-bottom: 1px solid #f0e9ff;
+          margin-top: -1px;
+          z-index: 10;
+        }
+        &::after {
+          background-image: url(../images/arrow_bottom.svg) !important;
+        }
+      }
+    }
+    .accordion-body {
+      padding: 4px 19px 6px;
+      p {
+        font-size: 13px;
+        font-weight: $fw_Regular;
+        color: $eColor_Blackish;
+      }
+    }
+  }
+}
+
+// Accordion Flush
+.eAccordion-flush {
+  padding: 0 14px;
+  border: 1px solid $eColor_Blackish_bg;
+  .accordion-item {
+    .accordion-header {
+      .accordion-button {
+        font-size: 13px;
+        line-height: 30px;
+        font-weight: $fw_Medium;
+        color: $eColor_Blueish;
+        box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+        padding: 12px 20px;
+        &:not(.collapsed) {
+          position: relative;
+          background-color: #f6f2ff;
+          border: 1px solid #f0e9ff;
+          margin-top: -1px;
+          z-index: 10;
+        }
+        &::after {
+          background-image: url(../images/arrow_bottom.svg) !important;
+        }
+      }
+    }
+    .accordion-body {
+      padding: 4px 19px 6px;
+      p {
+        font-size: 13px;
+        font-weight: $fw_Regular;
+        color: $eColor_Blackish;
+      }
+    }
+  }
+}

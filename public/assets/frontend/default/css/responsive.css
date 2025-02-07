@@ -1,0 +1,487 @@
+@media only screen and (max-width: 1100px) {
+    .testimonial-border {
+        right: 0px;
+        max-width: 450px;
+    }
+}
+
+@media all and (max-width:1024px) {
+    .testimonials-wrapper .owl-theme .owl-nav {
+        left: -320px;
+    }
+}
+
+@media all and (min-width:992px) {
+    .nav-menu {
+        display: -webkit-box !important;
+        display: -ms-flexbox !important;
+        display: flex !important;
+    }
+
+    .offcanvas {
+        display: flex;
+    }
+}
+
+@media all and (max-width:991px) {
+    .nav-menu {
+        display: none !important;
+        position: absolute;
+        left: -550px;
+        height: 100vh;
+        background: var(--bg-white);
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        top: 0;
+        width: 398px;
+        z-index: 999;
+        justify-content: flex-start;
+        transition: .5s;
+    }
+
+    .nav-menu .primary-menu {
+        flex-direction: column;
+        height: 100vh;
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+
+    .primary-menu li {
+        margin-bottom: 18px;
+    }
+
+    .gSearch-show {
+        width: 90%;
+    }
+
+    .left {
+        left: 0;
+    }
+
+
+    .toggle-bar {
+        display: block;
+    }
+
+    .banner-image {
+        margin-top: 54px;
+    }
+
+    .ps-border::before {
+        display: none;
+    }
+
+    .ps-border {
+        margin-bottom: 20px;
+    }
+
+    .single-feature {
+        width: 100%;
+    }
+
+    .skill-image .over-text {
+        left: 0;
+    }
+
+    .testimonial-border {
+        width: 330px;
+        right: 0px;
+    }
+
+    .testimonial-des {
+        padding: 20px 20px 20px 35px;
+    }
+
+    .testimonials-wrapper .owl-theme .owl-nav {
+        position: inherit;
+        left: 0;
+        bottom: 0 !important;
+    }
+
+    .testimonials-wrapper {
+        background-color: transparent;
+    }
+
+    .footer-widget {
+        margin-bottom: 20px;
+    }
+
+    .copyright-text {
+        justify-content: center;
+        margin-top: 13px;
+    }
+
+    .footer-policy {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .contact-left {
+        margin-top: 30px;
+        margin-left: 0;
+    }
+
+    .conatact-map iframe {
+        height: 450px;
+    }
+
+    .requirment ul li p {
+        max-width: 90%;
+    }
+
+    .ps-sidebar {
+        margin-top: 30px;
+    }
+
+    .ps-sidebar del {
+        font-size: 18px;
+        margin-top: 15px;
+    }
+
+    .ps-sidebar .g-title {
+        font-size: 34px;
+    }
+
+    .form-area .form-group .form-control {
+        width: auto;
+    }
+
+    .image-panel {
+        position: inherit;
+        margin-top: -90px;
+        margin-left: 20px;
+    }
+
+    .course-sideBar {
+        max-width: 400px;
+        margin: auto;
+        margin-bottom: 30px;
+        border: 1px solid #C664FF;
+    }
+
+    .gradient-border {
+        background: transparent;
+        padding: 0;
+    }
+
+    .sidebar {
+        margin-bottom: 30px;
+    }
+
+    .comment-wrap .ins-left {
+        flex-wrap: wrap;
+    }
+
+    .offcanvas {
+        display: block;
+    }
+
+}
+
+@media all and (max-width:767px) {
+    .gSearch-show.active {
+        top: 79px;
+    }
+
+    .header-area {
+        position: relative;
+    }
+
+    .gSearch-show {
+        width: 96%;
+    }
+
+    .header-menu {
+        position: inherit;
+    }
+
+    .banner-content h1 {
+        font-size: 45px;
+        line-height: 50px;
+    }
+
+    .section-padding {
+        padding-top: 70px;
+    }
+
+    .skill-image {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .res-control {
+        flex-wrap: wrap;
+        justify-content: center !important;
+        gap: 20px;
+    }
+
+    .res-control .section-title {
+        text-align: center;
+    }
+
+    .footer-content {
+        margin-bottom: 30px;
+    }
+
+    .g-title {
+        font-size: 34px;
+    }
+
+    .privacy-policy h3 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .intro-about h2 {
+        font-size: 34px;
+    }
+
+    .intro-about .description {
+        width: 100%;
+    }
+
+    .about-skill .skill-image img {
+        height: 460px;
+        margin-bottom: 20px;
+    }
+
+    .footer-area {
+        margin-top: 60px;
+    }
+
+    .f-40 {
+        font-size: 34px !important;
+    }
+
+    .comment-form .form-group {
+        gap: 0;
+        flex-direction: column;
+    }
+
+    .cUser-info {
+        max-width: 70%;
+    }
+
+    .hero-details img {
+        height: 400px;
+    }
+
+    .requirment {
+        flex-wrap: wrap;
+    }
+
+    .form-area {
+        gap: 7px;
+        flex-wrap: wrap;
+    }
+
+    .btn-wrap {
+        margin-top: 60px;
+        margin-bottom: 40px;
+        justify-content: center;
+    }
+
+    .left-profile img {
+        margin: auto;
+    }
+
+    .my-course-btn {
+        justify-content: flex-start;
+        top: 18px;
+    }
+
+    .my-panel {
+        padding: 20px;
+        padding-bottom: 44px;
+    }
+
+    .image-panel {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .my-info {
+        position: inherit;
+    }
+
+    .learn-creator {
+        flex-wrap: wrap;
+    }
+
+    .right-sub {
+        margin-top: 15px;
+    }
+
+    .sub-header-left ul {
+        justify-content: center;
+    }
+}
+
+@media all and (max-width:576px) {
+    .gSearch-icon {
+        margin-right: 5px;
+    }
+
+    .gSearch-icon::after {
+        display: none;
+    }
+
+    .header-menu .eBtn {
+        padding: 8px 30px;
+    }
+
+    .primary-end .nice-control {
+        margin-right: 2px;
+    }
+
+    .toggle-bar {
+        font-size: 23px;
+        height: 39px;
+        width: 39px;
+        line-height: 39px;
+    }
+
+    .banner-image img {
+        height: auto;
+    }
+
+    .title {
+        font-size: 34px;
+    }
+
+    .single-feature .entry-title {
+        margin-top: 18px;
+    }
+
+    .entry-title h3 {
+        width: 90%;
+    }
+
+    .about-skill .skill-image img,
+    .skill-image img {
+        height: auto;
+    }
+
+    .skill-text {
+        width: 100%;
+    }
+
+    .skil-content ul li {
+        flex-wrap: wrap;
+    }
+
+    .skil-content ul li .svg {
+        margin-bottom: 15px;
+    }
+
+    .testimonial-border {
+        width: 280px;
+        top: 70%;
+    }
+
+    .login-img img {
+        height: auto;
+    }
+
+    .blog-box .course-motion-top li::after {
+        display: none;
+    }
+
+    .blog-f-image img {
+        height: 400px;
+    }
+
+    .details-socialsLink {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .comment-head {
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .reply-comment {
+        margin-left: 44px;
+    }
+
+    .cUser-img,
+    .cUser-img img {
+        height: 60px;
+        width: 60px;
+    }
+
+    .date-pack p,
+    .date-pack a {
+        font-size: 13px;
+    }
+
+    .conatact-map iframe {
+        height: 300px;
+    }
+
+    .course-motion-top li::after {
+        display: none;
+    }
+
+    .lesson-list li a {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .instructor-motion {
+        flex-wrap: wrap;
+    }
+
+    .istructor-info {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .single-details {
+        padding: 20px;
+    }
+
+    .left-profile img {
+        height: 225px;
+    }
+
+    .my-course-btn {
+        position: inherit;
+        margin-top: 28px;
+    }
+
+    .image-panel ul li::after {
+        display: none;
+    }
+
+    .image-panel ul {
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+
+    .nav-menu {
+        width: 300px;
+    }
+    .my-bootcamp-details .bootcamp-thumbnail{
+        width: 100%;
+        height: auto;
+    }
+    /* New for University home page*/
+    .imagebg-btn-card .btn-whitelight {
+        visibility: visible;
+        opacity: 1;
+        pointer-events: auto;
+        bottom: 30px;
+    }
+    /* New for University home page ENDED*/
+}
+
+@media all and (max-width:540px) {
+    .course-motion-top {
+        gap: 24px;
+        flex-wrap: wrap;
+    }
+
+}

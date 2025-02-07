@@ -1,0 +1,31 @@
+.eSwitches {
+  .form-switch {
+    input.form-check-input {
+      width: 29px;
+      height: 14px;
+      margin-top: 0.35em;
+      box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+      border: 1px solid #cacfd4;
+      border-radius: 8px;
+      background-color: #fff;
+      background-image: url(../images/switch.svg);
+      &:checked {
+        background-color: $eColor_Blue;
+        border-color: $eColor_Blue;
+        background-image: url(../images/switch-checked.svg);
+      }
+      &.form-switch-medium {
+        height: 16px;
+      }
+      &.form-switch-large {
+        width: 35px;
+        height: 18px;
+      }
+    }
+  }
+  label {
+    font-size: 12px;
+    font-weight: $fw_Medium;
+    color: $eColor_Blueish;
+  }
+}

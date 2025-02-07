@@ -1,0 +1,232 @@
+.custom_dashboard_color {
+    color: white !important;
+}
+
+.Active {
+    color: #00a3ff !important;
+}
+
+.logo_height_width {
+    width: 75% !important;
+}
+
+
+.custom_button_action_padding{
+    padding: 5px 20px;
+    border-radius: 40% !important;
+}
+
+@media screen and (max-width: 991px){
+    .closeIcon{
+        display: block;
+        position: absolute;
+        left: unset;
+        top: 8px;
+        right: -6px !important;
+        transform: translateX(-50%);
+        width: 30px;
+        height: auto;
+        background: #0000;
+        border-radius: 10px;
+        text-align: center;
+        line-height: 30px;
+        cursor: pointer;
+        color: #ffffff;
+    }
+}
+
+
+.sidebar .logo-sm{
+    display: none;
+}
+.sidebar .logo-lg{
+    display: inline-block;
+}
+
+
+@media screen and (min-width: 992px){
+    .sidebar.close .logo-sm{
+        display: inline-block !important;
+    }
+    .sidebar.close .logo-lg{
+        display: none !important;
+    }
+}
+
+
+/*Shourav dashboard*/
+.single-dash-box .card {
+    padding: 12px 18px;
+    border-radius: 5px;
+}
+.single-dash-box .card-head{
+    margin-bottom: 16px;
+}
+.single-dash-box .card-head p {
+    color: #181C32;
+    font-weight: 500;
+}
+.single-dash-box .card-body{
+    padding: 0;
+    padding-top: 18px;
+}
+.reader-book{
+    height: 60px;
+    width: 60px;
+    border-radius: 20px;
+    line-height: 60px;
+    background-color: #fff;
+    text-align: center;
+}
+.reader-book img{
+    height: 30px;
+    width: 30px;
+}
+.reader-count h4 {
+    font-size: 38px;
+    font-weight: 600;
+    color: #181C32;
+    line-height: 38px;
+    display: flex;
+    justify-content: flex-end;
+}
+.reader-count p{
+    color: #181C32;
+}
+.colors-1{
+    background-color: #E1ECFC;
+    border-color: #E1ECFC;
+}
+.colors-1 i{
+    color: #6A96D8;
+}
+.colors-1 .card-body{
+    border-top: 1px solid #C1D3EE;
+}
+.colors-2{
+    background-color: #CAF1DD;
+    border-color: #CAF1DD;
+}
+.colors-2 i{
+    color: #67C997;
+}
+.colors-2 .card-body{
+    border-top: 1px solid #A9E8C8;
+}
+.colors-3{
+    background-color: #FFECE5;
+    border-color: #FFECE5;
+}
+.colors-3 i{
+    color: #D5957A;
+}
+.colors-3 .card-body{
+    border-top: 1px solid #F9DCD0;
+}
+.colors-4{
+    background-color: #F3E7F8;
+    border-color: #F3E7F8;
+
+}
+.colors-4 i{
+    color: #BB7FD2;
+}
+.colors-4 .card-body{
+    border-top: 1px solid #E9CDF3;
+}
+.colors-5{
+    background-color: #EDECFE;
+    border-color: #EDECFE;
+}
+.colors-5 i{
+    color: #8B8BD5;
+}
+.colors-5 .card-body{
+    border-top: 1px solid #D1D1F5;
+}
+.colors-6{
+    background-color: #FEE7EC;
+    border-color: #FEE7EC;
+}
+.colors-6 i{
+    color: #C17C8C;
+}
+.colors-6 .card-body{
+    border-top: 1px solid #F5D2DA;
+}
+/* Graph */
+.graph-control{
+    background-color: #fff;
+}
+.graph-control .form-select {
+    background-image: none;
+    width: 150px;
+    position: relative;
+    height: 45px !important;
+    padding: 0;
+    padding-left: 10px;
+    border-radius: 10px;
+    padding-top: 2px;
+}
+.graph-control .nice-select {
+    height: auto;
+    border: 1px solid #E3E4EA;
+}
+.graph-control .nice-select.open .list {
+    width: 100%;
+}
+.graph-control .nice-select::after {
+    height: 9px;
+    margin-top: -5px;
+    right: 14px;
+    width: 9px;
+}
+.graph-control h6{
+    font-size: 24px;
+    font-weight: 600;
+    color: #181C32;
+}
+/* Responsive Css */
+@media all and (max-with:576px){
+    .reader-count h4 {
+        font-size: 22px;
+     }
+     .graph-control h6 {
+       font-size: 22px;
+     }
+}
+.text-30px{
+    font-size: 30px;
+}
+/*Dashboard ended*/
+.dataTables_filter input:focus-visible{
+    outline: none;
+}
+.select2-container--default .select2-selection--single{
+    display: block;
+    width: 100%;
+    padding: 9px 16px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #797c8b;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #cacfd4;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 5px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    height: 45px;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow{
+    top: 10px;
+    right: 8px;
+}
+.select2.select2-container.select2-container--default{
+    max-width: 100%;
+    width: 100% !important;
+}
+.table-responsive{
+    min-height: 200px;
+}

@@ -1,0 +1,89 @@
+.eCheckbox {
+  .form-check {
+    &.eForm-check {
+      padding-left: 0;
+      .row {
+        gap: 8px;
+      }
+    }
+  }
+  input.form-check-input {
+    margin-top: 0.35em;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid $eColor_Blackish_bg;
+    &:checked {
+      background-color: $eColor_Blue;
+      border-color: $eColor_Blue;
+    }
+    &.eCheckboxPrimary {
+      &:checked {
+        background-color: $eColor_Blue;
+        border-color: $eColor_Blue;
+      }
+    }
+    &.eCheckboxSuccess {
+      &:checked {
+        background-color: $success;
+        border-color: $success;
+      }
+    }
+    &.eCheckboxInfo {
+      &:checked {
+        background-color: $info;
+        border-color: $info;
+      }
+    }
+    &.eCheckboxWarning {
+      &:checked {
+        background-color: $warning;
+        border-color: $warning;
+      }
+    }
+    &.eCheckboxDanger {
+      &:checked {
+        background-color: $dnager;
+        border-color: $dnager;
+      }
+    }
+    &.eCheckboxOutlinePrimary {
+      &:checked {
+        background-color: transparent;
+        border-color: $eColor_Blue;
+        background-image: url(../images/checkbox-check.svg);
+      }
+    }
+    &.eCheckboxOutlineSuccess {
+      &:checked {
+        background-color: transparent;
+        border-color: $success;
+        background-image: url(../images/checkbox-check.svg);
+      }
+    }
+    &.eCheckboxOutlineInfo {
+      &:checked {
+        background-color: transparent;
+        border-color: $info;
+        background-image: url(../images/checkbox-check.svg);
+      }
+    }
+    &.eCheckboxOutlineWarning {
+      &:checked {
+        background-color: transparent;
+        border-color: $warning;
+        background-image: url(../images/checkbox-check.svg);
+      }
+    }
+    &.eCheckboxOutlineDanger {
+      &:checked {
+        background-color: transparent;
+        border-color: $dnager;
+        background-image: url(../images/checkbox-check.svg);
+      }
+    }
+  }
+  label {
+    font-size: 12px;
+    font-weight: $fw_Medium;
+    color: $eColor_Blueish;
+  }
+}
